@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="fazenda" id="31787B37-9FDE-F84C-C6F0-0708638CC3BD" version="3.5">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 18:50:16 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>31787B37-9FDE-F84C-C6F0-0708638CC3BD</designId>
+</OSDM_Design>
