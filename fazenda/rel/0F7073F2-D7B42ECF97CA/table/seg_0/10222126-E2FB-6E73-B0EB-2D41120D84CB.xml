@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10222126-E2FB-6E73-B0EB-2D41120D84CB" name="registro_umidade_solo">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>1BF3E86F-BBBF-C7F0-D3E4-0F5F60DB7BAF</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_solo" id="5B464873-064F-A023-79C5-70EB9DD48527">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>AD455342-CB93-2C00-E021-33BC840D35CA</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude" id="8ABFABC9-D191-F3A4-D9FC-F9FC5C73803E">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>34F0EF50-F887-2CE8-BEA0-BE0AF71D0049</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,100,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="30E4A8D8-A398-EC87-47BD-61809E41CD53">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>EE3E65AE-BC10-7D21-8BF6-C0A40A663141</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,100,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fonte" id="23220105-4A49-98FC-FB4C-7FAD87AF6FF8">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>A9CAE901-D70D-EBC0-14FB-3776F297E2A8</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_ocorrencia" id="B595473F-A705-4F28-2232-8AD684E06449">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>75F3ABB2-9890-430F-FFD5-FDE2A5CE1CA9</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="terra_id_terra" id="40A02C7D-C7D6-354E-3FC4-A8EDB6281940">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>F55BF810-28C8-7875-095C-6079B653B06F</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A87ABFD-A096-593E-DD5E-D2D0CBE4560C" referredColumn="6397AA64-6415-7D43-4F93-4B8A652ECC3E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C5EF7C8-426E-F7D6-FE31-5567DF131A15" name="registro_umidade_solo_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>9EB09E5D-3A56-8B5C-2076-716F049E3BFB</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B464873-064F-A023-79C5-70EB9DD48527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F25020B-BA22-2519-39E6-7ED3C29D5157" name="registro_umidade_solo_terra_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>270E4E8A-FD57-9D38-3F2B-2B2CEEEEDB16</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40A02C7D-C7D6-354E-3FC4-A8EDB6281940"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
