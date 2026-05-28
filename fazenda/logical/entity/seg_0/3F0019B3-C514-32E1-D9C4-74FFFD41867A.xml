@@ -68,6 +68,21 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_produtor" id="0CE84768-512A-28BF-67C2-580845A36D96">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 17:57:57 UTC</createdTime>
+<generatorID>268B7E49-ECE4-24A3-5746-97E5DE2AC564</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
+</engineerTo>
+<referedAttribute>E3BE2FE8-E841-87E2-BA20-C126CC4ED8EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F6931C61-0B7D-2AE3-8A29-47099EC0ECC5" name="Fazenda PK">

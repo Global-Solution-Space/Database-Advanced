@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BF3E86F-BBBF-C7F0-D3E4-0F5F60DB7BAF" name="registro_umidade_solo">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="745B1CC8-E0F4-FC32-AB77-8F93B63C736A" name="alerta_agricola">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-27 20:48:25 UTC</createdTime>
+<createdTime>2026-05-28 19:16:54 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
 <item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_solo" id="AD455342-CB93-2C00-E021-33BC840D35CA">
+<Attribute name="id_alerta" id="FB774A8B-9AC7-DB43-F822-BFBFFFDC5989">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-27 20:48:32 UTC</createdTime>
+<createdTime>2026-05-28 19:17:03 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
 <item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
@@ -28,37 +28,9 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="latitude" id="34F0EF50-F887-2CE8-BEA0-BE0AF71D0049">
+<Attribute name="titulo" id="0E4A61D8-492C-2D7C-FC60-E86FB3E41A36">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-27 20:48:45 UTC</createdTime>
-<ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<dataTypePrecision>100</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,100,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="longitude" id="EE3E65AE-BC10-7D21-8BF6-C0A40A663141">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-27 20:49:19 UTC</createdTime>
-<ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<dataTypePrecision>100</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,100,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fonte" id="A9CAE901-D70D-EBC0-14FB-3776F297E2A8">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-27 20:52:24 UTC</createdTime>
+<createdTime>2026-05-28 19:17:11 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
 <item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
@@ -66,12 +38,51 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="data_ocorrencia" id="75F3ABB2-9890-430F-FFD5-FDE2A5CE1CA9">
+<Attribute name="descricao" id="03611887-21BE-840C-78AC-2020BEC67096">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-27 20:49:47 UTC</createdTime>
+<createdTime>2026-05-28 19:17:26 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel_alerta" id="27EDD370-F096-6831-6134-87467C835542">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 19:17:42 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resolvido" id="6BADC051-B2D3-E5A4-36BA-69113FD758C6">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 19:17:57 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_alerta" id="8B1B6E76-2523-5F08-C255-33121AAB8ADA">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 19:18:12 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
 <item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
@@ -81,15 +92,15 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_terra" id="F55BF810-28C8-7875-095C-6079B653B06F">
+<Attribute name="id_analise" id="8086AF16-47D8-C78C-364E-E0D70BEA46EB">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-27 20:53:54 UTC</createdTime>
-<generatorID>270E4E8A-FD57-9D38-3F2B-2B2CEEEEDB16</generatorID>
+<createdTime>2026-05-28 19:41:34 UTC</createdTime>
+<generatorID>1F4E162A-BF61-CCE8-BBBB-06D60908E311</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
 <item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
 </engineerTo>
-<referedAttribute>5BDA2553-AECF-C6A7-67E9-54B99304255B</referedAttribute>
+<referedAttribute>2F232D54-CC89-ED1E-5101-9C94188B9AD6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -98,16 +109,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9EB09E5D-3A56-8B5C-2076-716F049E3BFB" name="Umidade do Solo PK">
+<identifier id="AD42ED07-8935-7C6E-89EC-BBE89E6AE884" name="alerta_agricola PK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-27 20:48:44 UTC</createdTime>
+<createdTime>2026-05-28 19:17:10 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
 <item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>AD455342-CB93-2C00-E021-33BC840D35CA</attributeRef>
+<attributeRef>FB774A8B-9AC7-DB43-F822-BFBFFFDC5989</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
