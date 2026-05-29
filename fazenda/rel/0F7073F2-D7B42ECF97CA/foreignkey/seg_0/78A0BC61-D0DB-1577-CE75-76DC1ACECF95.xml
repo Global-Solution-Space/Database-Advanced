@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78A0BC61-D0DB-1577-CE75-76DC1ACECF95" containerWithKeyObject="F43E4033-1C9E-13AB-16B9-5EB8677F17BD" localFKIndex="0036E4F3-D718-834D-FB69-CF0994C33A91" name="historico_irrigacao_terra_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>4AA1463B-1E97-3D5C-E0BA-8C141F7A8101</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>terra</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD53859C-0E58-21FE-B330-D3C507BE31AD</referredTableID>
+<keyObject>9B2DD71F-819E-3F50-E6DB-EBE03CAE374B</keyObject>
+<referredKeyID>9B2DD71F-819E-3F50-E6DB-EBE03CAE374B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_terra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

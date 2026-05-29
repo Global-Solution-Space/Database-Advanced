@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD53859C-0E58-21FE-B330-D3C507BE31AD" name="terra">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>396DC1C8-370A-8BBB-588A-2451998DCCD5</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_terra" id="6397AA64-6415-7D43-4F93-4B8A652ECC3E">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>5BDA2553-AECF-C6A7-67E9-54B99304255B</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="area_hectares" id="F867D741-2170-A43A-DF59-3F495C5566F6">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>3459C617-175A-D6CD-DD22-1FD0E93CCC07</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,100,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_terra_id_tipo" id="D9C132F6-5A04-9B34-555A-47D5F788D39D">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>88D2F6B6-3C51-0D99-B4D6-87E2A1D95175</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB06F761-36B1-FEE5-C6E9-E0B6455E6748" referredColumn="812C539E-E943-1877-1ED0-4E494E326B52"/>
+</associations>
+</Column>
+<Column name="fazenda_id_fazenda" id="1ADA71D8-CA0A-C842-0C5D-DCAE3027A901">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>D41E724A-D42B-D8C9-B8D8-9B5E6A6D9A95</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CC05FA7-67BC-70A2-AB23-2930EAF76F42" referredColumn="D41B6308-D070-95E9-A3A0-CD856D589A8E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B2DD71F-819E-3F50-E6DB-EBE03CAE374B" name="terra_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>F38B0ABD-6AD6-5371-BA78-3C5CB071A78A</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6397AA64-6415-7D43-4F93-4B8A652ECC3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99C4D33E-4B98-C4F4-F0D1-3F09298C47F2" name="terra_tipo_terra_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>076B28A7-667F-27EE-A0A9-D233B0A0BDFE</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9C132F6-5A04-9B34-555A-47D5F788D39D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBD5DAEC-3814-73F1-AC28-94AD7F14F3AC" name="terra_fazenda_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-27 21:03:06 UTC</createdTime>
+<generatorID>FC63AAF9-5B4F-51C4-243D-E1B66D4117D8</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ADA71D8-CA0A-C842-0C5D-DCAE3027A901"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
