@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47D7A67A-AE8D-D87D-B1DD-57451BE77B97" name="alert_agric">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>745B1CC8-E0F4-FC32-AB77-8F93B63C736A</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alerta" id="C7993B44-9BC4-C15E-0D8F-86BF1E070E9E">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>FB774A8B-9AC7-DB43-F822-BFBFFFDC5989</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="4D6937BB-83C4-2F82-8D35-05E63F71B905">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>0E4A61D8-492C-2D7C-FC60-E86FB3E41A36</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="E6548595-D51B-9760-04FB-94A696464560">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>03611887-21BE-840C-78AC-2020BEC67096</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_alerta" id="5072CE5C-9551-8F69-CD49-750BBCD89C52">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>27EDD370-F096-6831-6134-87467C835542</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resolvido" id="D9A17D02-6E6F-B851-ABFC-B98B870B8E2C">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>6BADC051-B2D3-E5A4-36BA-69113FD758C6</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_alerta" id="58621E72-AA28-749C-37D9-604FB360920F">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>8B1B6E76-2523-5F08-C255-33121AAB8ADA</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anali_satelit_id_analise" id="CFF3D95B-366C-038E-28EB-6D6E0DFDB483">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>8086AF16-47D8-C78C-364E-E0D70BEA46EB</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C048B467-ABBF-1E46-173E-D2AB36EB9BEC" referredColumn="17BC8A01-D499-0346-3F6A-0612422FCB0F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9003C809-006F-A08C-A4DA-969996F13448" name="alert_agric_PK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>AD42ED07-8935-7C6E-89EC-BBE89E6AE884</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7993B44-9BC4-C15E-0D8F-86BF1E070E9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AF93600-BB95-ABF1-01E8-0D78558A69CD" name="alert_agric_anali_satelit_FK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>1F4E162A-BF61-CCE8-BBBB-06D60908E311</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFF3D95B-366C-038E-28EB-6D6E0DFDB483"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

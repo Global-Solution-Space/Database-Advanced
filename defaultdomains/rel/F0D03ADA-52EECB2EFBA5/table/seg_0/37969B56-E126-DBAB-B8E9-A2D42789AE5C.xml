@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37969B56-E126-DBAB-B8E9-A2D42789AE5C" name="localizacao">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>9E612665-6556-0FFE-E653-169C24B11224</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_localizacao" id="C5C9B026-19E2-EB3F-2CC5-C700AE78DF26">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>7BB8545E-DCE6-5B5E-775B-EC0497D0144E</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude" id="91C8E9FE-023C-1DBD-A68D-9F3DC48BA169">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>59F40D70-1834-8660-9676-8EB6477750DC</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="2EF72203-E495-CFAC-B5A9-4911CE8A19E1">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>5CF1AE40-E760-B56A-176E-148DDD627941</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lote_id_lote" id="51E002DA-94F9-363E-670E-5EDEDEADBEAC">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>F03CDE12-726B-12F2-ED98-7260CBA8762A</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B67263C-4FAC-876D-E52F-03E97BDAA750" referredColumn="411B87F8-B191-1E2F-B4B8-6E5C4372D523"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="125585E3-347A-1F09-59A7-0671589D10E1" name="localizacao_PK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>A0D25354-4FFB-FB4D-9167-14DF831E0EB7</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5C9B026-19E2-EB3F-2CC5-C700AE78DF26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="258B4E80-C299-815F-5084-953E836C6088" name="localizacao__IDX">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>37F0899F-BF2D-D4F1-6C29-F755DCF01329</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="51E002DA-94F9-363E-670E-5EDEDEADBEAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="413C4298-880D-1CB1-D529-0298BD78E226" name="localizacao_lote_FK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>37F0899F-BF2D-D4F1-6C29-F755DCF01329</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51E002DA-94F9-363E-670E-5EDEDEADBEAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

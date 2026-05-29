@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B2D5EA9-7B51-DD41-34F2-6A77963DDFBD" name="anali_satelit">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>9A8AB7C3-600A-029F-CF51-3B64506281B0</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_analise" id="17BC8A01-D499-0346-3F6A-0612422FCB0F">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>2F232D54-CC89-ED1E-5101-9C94188B9AD6</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ndvi" id="C83EEE2C-0DD6-E036-B2F5-B902A9364865">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>DC48C23B-F3D4-A3A9-0EC5-8434B627AA2A</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temperatura_media" id="25202476-6B8C-F63B-C9E4-35869E45C009">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>E9C1181C-D0F1-5836-44B1-8B3E2978A622</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="umidade_solo" id="E2353AA1-D0B3-8424-C35B-DE9CE4B5830E">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>037D42DE-7BB4-2DC7-6E94-D20F95DC473E</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="risco_praga" id="DBA32C85-887F-A53D-7A9B-09E062BE6785">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>7D59E4A1-7498-05CD-5EB1-A7DAA02C6D2F</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indice_vegetacao" id="E47853BA-E2C2-02B4-BABC-DD613EE00FF9">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>1170E90B-4A05-B80A-89F6-8C87A23A640A</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacao" id="FE853E6D-FE04-F0A5-B392-5E21CC94AEAD">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>2D559EA0-5304-EB08-B74A-F8E3EAF9EE1B</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_analise" id="DB67FB32-AB53-E194-2EFF-49A1A0B93A06">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>83982DD3-666C-4C44-EDA0-E46BE1CD7C89</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lote_id_lote" id="E17FE6A4-863D-8700-A149-A168DBE4CE27">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>F08E47C7-8E59-81CD-8CB3-2DCE08507621</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B66A2716-57DE-BE76-D886-EF573D3BCC6E" referredColumn="411B87F8-B191-1E2F-B4B8-6E5C4372D523"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="369509A0-9C7A-E3F0-25FA-13BC16DB9880" name="anali_satelit_PK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>06FD7161-BFE6-A047-E607-AFC73309302F</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17BC8A01-D499-0346-3F6A-0612422FCB0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="609E2DD4-0FC6-12E4-98C1-A18283F001E1" name="anali_satelit_lote_FK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>B547E81A-6DAE-FBEC-C744-C94FD4C8F3F8</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E17FE6A4-863D-8700-A149-A168DBE4CE27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

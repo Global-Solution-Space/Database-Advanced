@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF37146F-B2D9-FF67-1A5A-65727FCE3094" name="irrigacao">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 20:24:59 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_irrigacao" id="AF6D924E-EC51-F350-A3B5-A278CE8190F2">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 20:25:09 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="volume_agua_litros" id="29699E16-F3B5-7096-6965-75B52C1EF59D">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 20:25:36 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_irrigacao" id="972079DC-7A6C-B9DA-E968-62E8CC2B0B22">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 20:26:08 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_acionamento" id="6338031E-481A-C2F6-62A6-AE0694204041">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 20:26:48 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_irrigacao" id="9872E15C-7E9D-9B6A-EE2D-0FBF2DE505E4">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 20:27:05 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_lote" id="863384F8-7760-B16A-8500-A3CD6798E215">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 20:28:15 UTC</createdTime>
+<generatorID>302EDA79-3D76-7775-4683-E5297F3B1024</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<referedAttribute>5BDA2553-AECF-C6A7-67E9-54B99304255B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_alerta" id="92BD9FD8-2E8E-15ED-2750-70BBF48D0A0A">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 20:28:35 UTC</createdTime>
+<generatorID>5368AC39-D372-9C6C-AA8F-DB762D97FD61</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<referedAttribute>FB774A8B-9AC7-DB43-F822-BFBFFFDC5989</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="989172DE-E47A-7B3A-D2EA-C0ED3D8B9E19" name="irrigacao PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 20:25:35 UTC</createdTime>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF6D924E-EC51-F350-A3B5-A278CE8190F2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

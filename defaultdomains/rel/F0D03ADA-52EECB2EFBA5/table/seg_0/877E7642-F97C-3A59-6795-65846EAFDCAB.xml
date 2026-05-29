@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="877E7642-F97C-3A59-6795-65846EAFDCAB" name="telefone">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>1C95840D-855D-8955-0EEE-AB722F3ECB2B</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tel" id="76D1C8FB-67EC-B8C5-E29F-02752ECC70FA">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>E89D3C42-282E-64C9-44DE-523C55AFDBE2</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ddd" id="78580B7F-4085-E20F-5943-79F094719E79">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>FE2FC501-100A-E54B-513A-C86A6761D339</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="CBA8A7A9-C75E-6397-F919-4A4D2B35293C">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>A1E5F1C6-E12B-D8DD-E69B-0DD4D64B07DD</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produtor_id_produtor" id="910135B6-617F-DEAC-368A-7E9413FC67A2">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>46F61FD5-E87A-A5CE-2E43-A678E89652BD</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEEB2111-F928-A4EE-5839-7832FD86B02F" referredColumn="3FD58B34-BB51-A7BC-5DD9-DA21786B4274"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6843D1A6-6E74-8541-8DE4-D788006AD4CA" name="telefone_PK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>186E3B0C-4EC8-03A9-123F-51A470DE1088</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76D1C8FB-67EC-B8C5-E29F-02752ECC70FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10E8D9A4-DFA6-65CC-BE98-08E642068ACF" name="telefone_produtor_FK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>D9CBADF0-B363-2076-967D-2AD1E4A2E4D6</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="910135B6-617F-DEAC-368A-7E9413FC67A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

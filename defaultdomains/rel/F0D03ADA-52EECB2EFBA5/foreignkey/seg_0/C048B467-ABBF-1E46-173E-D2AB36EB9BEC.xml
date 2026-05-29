@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C048B467-ABBF-1E46-173E-D2AB36EB9BEC" containerWithKeyObject="47D7A67A-AE8D-D87D-B1DD-57451BE77B97" localFKIndex="4AF93600-BB95-ABF1-01E8-0D78558A69CD" name="alert_agric_anali_satelit_FK">
+<createdBy>lulz_user</createdBy>
+<createdTime>2026-05-28 22:03:54 UTC</createdTime>
+<generatorID>1F4E162A-BF61-CCE8-BBBB-06D60908E311</generatorID>
+<ownerDesignName>defaultdomains</ownerDesignName>
+<referredTableLongName>anali_satelit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8B2D5EA9-7B51-DD41-34F2-6A77963DDFBD</referredTableID>
+<keyObject>369509A0-9C7A-E3F0-25FA-13BC16DB9880</keyObject>
+<referredKeyID>369509A0-9C7A-E3F0-25FA-13BC16DB9880</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_analise</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

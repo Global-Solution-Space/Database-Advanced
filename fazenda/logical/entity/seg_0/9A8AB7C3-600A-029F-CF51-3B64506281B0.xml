@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A8AB7C3-600A-029F-CF51-3B64506281B0" name="anali_satelit">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 18:00:56 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_analise" id="2F232D54-CC89-ED1E-5101-9C94188B9AD6">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 18:01:04 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ndvi" id="DC48C23B-F3D4-A3A9-0EC5-8434B627AA2A">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 18:01:18 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temperatura_media" id="E9C1181C-D0F1-5836-44B1-8B3E2978A622">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 18:01:50 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="umidade_solo" id="037D42DE-7BB4-2DC7-6E94-D20F95DC473E">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 18:02:11 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="risco_praga" id="7D59E4A1-7498-05CD-5EB1-A7DAA02C6D2F">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 18:02:25 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="indice_vegetacao" id="1170E90B-4A05-B80A-89F6-8C87A23A640A">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 18:02:47 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacao" id="2D559EA0-5304-EB08-B74A-F8E3EAF9EE1B">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 18:03:06 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_analise" id="83982DD3-666C-4C44-EDA0-E46BE1CD7C89">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 18:03:24 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_lote" id="F08E47C7-8E59-81CD-8CB3-2DCE08507621">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 18:04:15 UTC</createdTime>
+<generatorID>B547E81A-6DAE-FBEC-C744-C94FD4C8F3F8</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<referedAttribute>5BDA2553-AECF-C6A7-67E9-54B99304255B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06FD7161-BFE6-A047-E607-AFC73309302F" name="analise_satelital PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-28 18:01:17 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2F232D54-CC89-ED1E-5101-9C94188B9AD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
