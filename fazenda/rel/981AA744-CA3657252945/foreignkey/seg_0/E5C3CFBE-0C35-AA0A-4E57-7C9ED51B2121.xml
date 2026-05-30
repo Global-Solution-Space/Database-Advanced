@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E5C3CFBE-0C35-AA0A-4E57-7C9ED51B2121" containerWithKeyObject="944E422B-1519-B6EB-155C-F763C684D880" localFKIndex="A3637639-371D-77C3-F99B-97AAF44C501C" name="irrigacao_alerta_agricola_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>5368AC39-D372-9C6C-AA8F-DB762D97FD61</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>alerta_agricola</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC4DA80C-41BE-8DA1-D9DD-710FFCE70826</referredTableID>
+<keyObject>0B3D6508-1C9B-12F1-55F0-BD2F5F2E4D45</keyObject>
+<referredKeyID>0B3D6508-1C9B-12F1-55F0-BD2F5F2E4D45</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_alerta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

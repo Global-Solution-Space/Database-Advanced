@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="944E422B-1519-B6EB-155C-F763C684D880" name="irrigacao">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>BF37146F-B2D9-FF67-1A5A-65727FCE3094</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_irrigacao" id="03640D69-1D43-195D-47D6-0573832FC4A5">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>AF6D924E-EC51-F350-A3B5-A278CE8190F2</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="volume_agua_litros" id="E30E2AAC-AE08-E4D3-DBA1-1BD122A1BD58">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>29699E16-F3B5-7096-6965-75B52C1EF59D</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_irrigacao" id="8EBADD50-6D70-C39A-6A98-69AB3073DC52">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>972079DC-7A6C-B9DA-E968-62E8CC2B0B22</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_acionamento" id="CE138BD6-447A-53B9-D19F-97FF842EE6B6">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>6338031E-481A-C2F6-62A6-AE0694204041</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_irrigacao" id="7A7619C9-376E-2423-1A59-AFE9B4310D79">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>9872E15C-7E9D-9B6A-EE2D-0FBF2DE505E4</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lote_id_lote" id="5F20113A-AC42-1950-CC7E-05C87BD26318">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>863384F8-7760-B16A-8500-A3CD6798E215</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54FB3B41-E5EF-23C7-42B3-E0B87C14F5EB" referredColumn="FFBA14AF-02B4-C0E2-EC58-CDDF16CA45DD"/>
+</associations>
+</Column>
+<Column name="alerta_agricola_id_alerta" id="646CD5C7-8DA7-EC51-5FA7-EEEA2C0D8260">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>92BD9FD8-2E8E-15ED-2750-70BBF48D0A0A</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5C3CFBE-0C35-AA0A-4E57-7C9ED51B2121" referredColumn="02190D98-4728-BCD1-3838-E621D80BA7D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D135288-22FD-3931-2BCB-116BF7F8AA5A" name="irrigacao_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>989172DE-E47A-7B3A-D2EA-C0ED3D8B9E19</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03640D69-1D43-195D-47D6-0573832FC4A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35880632-5B18-DFB4-41AA-42E1D5C99364" name="irrigacao_lote_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>302EDA79-3D76-7775-4683-E5297F3B1024</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F20113A-AC42-1950-CC7E-05C87BD26318"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3637639-371D-77C3-F99B-97AAF44C501C" name="irrigacao_alerta_agricola_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>5368AC39-D372-9C6C-AA8F-DB762D97FD61</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="646CD5C7-8DA7-EC51-5FA7-EEEA2C0D8260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

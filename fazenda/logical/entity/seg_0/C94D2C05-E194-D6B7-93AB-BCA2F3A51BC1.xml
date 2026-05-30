@@ -1,11 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C94D2C05-E194-D6B7-93AB-BCA2F3A51BC1" name="cultura">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C94D2C05-E194-D6B7-93AB-BCA2F3A51BC1" name="tipo_plantacao">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-27 20:44:14 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -15,26 +12,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_cultura" id="E45AFF34-E47C-9AAB-5B09-0CE4F471EF6E">
+<Attribute name="id_tipo_plant" id="E45AFF34-E47C-9AAB-5B09-0CE4F471EF6E">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-27 20:44:20 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cultura" id="8E369DFE-D99C-7547-0433-85DDAE21A227">
+<Attribute name="tipo_plant" id="8E369DFE-D99C-7547-0433-85DDAE21A227">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-27 20:44:35 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -47,9 +38,6 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-27 20:44:56 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="0F7073F2-F5EA-767E-D735-D7B42ECF97CA" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E45AFF34-E47C-9AAB-5B09-0CE4F471EF6E</attributeRef>

@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82EE270F-AF1C-939F-3B21-E3264078A347" name="telefone">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 16:51:24 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_telefone" id="C1153E8D-C00A-6944-9AD4-7A26796B9EAE">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 16:51:29 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ddd" id="69424076-0E60-37FF-A3C3-BF4F286DFC27">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 16:51:34 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="1DC27607-7417-CE15-13B0-93CED7AE9210">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 16:51:49 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produtor" id="C6831C5C-2858-09A6-5574-8B7BF37862E0">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 16:52:56 UTC</createdTime>
+<generatorID>3FC07A53-BF3A-9A94-C3E7-6ED188BD546A</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referedAttribute>E3BE2FE8-E841-87E2-BA20-C126CC4ED8EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B1C89E5-703F-8B80-4D5B-23CAF635FB83" name="telefone PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 16:51:33 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1153E8D-C00A-6944-9AD4-7A26796B9EAE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

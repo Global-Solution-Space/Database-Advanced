@@ -1,11 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="745B1CC8-E0F4-FC32-AB77-8F93B63C736A" name="alert_agric">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="745B1CC8-E0F4-FC32-AB77-8F93B63C736A" name="alerta_agricola">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:16:54 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:17:03 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -32,9 +26,6 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:17:11 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -45,9 +36,6 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:17:26 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -58,9 +46,6 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:17:42 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -71,9 +56,6 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:17:57 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -84,28 +66,34 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:18:12 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_analise" id="8086AF16-47D8-C78C-364E-E0D70BEA46EB">
+<Attribute name="id_satveg" id="8086AF16-47D8-C78C-364E-E0D70BEA46EB">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:41:34 UTC</createdTime>
 <generatorID>1F4E162A-BF61-CCE8-BBBB-06D60908E311</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <referedAttribute>2F232D54-CC89-ED1E-5101-9C94188B9AD6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nasapower" id="1F92AC3D-5472-9775-A143-FCD3DD9AA71D">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-30 15:58:26 UTC</createdTime>
+<generatorID>451F746C-05A0-16DE-E534-0E3B42F5FB2E</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referedAttribute>1AC7C533-B75F-F572-DC4C-0D56CE3AAF1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -113,9 +101,6 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:17:10 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FB774A8B-9AC7-DB43-F822-BFBFFFDC5989</attributeRef>

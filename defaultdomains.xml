@@ -1,8 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="defaultdomains" id="31787B37-9FDE-F84C-C6F0-0708638CC3BD" version="3.5">
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-27 18:50:16 UTC</createdTime>
-<ownerDesignName>fazenda</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>31787B37-9FDE-F84C-C6F0-0708638CC3BD</designId>
-</OSDM_Design>
+<createdTime>2026-05-09 20:04:21 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

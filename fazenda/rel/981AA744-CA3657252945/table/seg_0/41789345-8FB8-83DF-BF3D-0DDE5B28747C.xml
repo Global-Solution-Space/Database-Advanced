@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41789345-8FB8-83DF-BF3D-0DDE5B28747C" name="analise_satelital">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>9A8AB7C3-600A-029F-CF51-3B64506281B0</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_analise" id="C9B19FFF-50EF-406A-2433-6B39EA846E6E">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>2F232D54-CC89-ED1E-5101-9C94188B9AD6</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ndvi" id="F8D8FBB1-8C15-F108-96E2-DED5758FFBE0">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>DC48C23B-F3D4-A3A9-0EC5-8434B627AA2A</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temperatura_media" id="357F64DB-CADE-A1C5-97D7-A8B8DA94972C">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>E9C1181C-D0F1-5836-44B1-8B3E2978A622</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="umidade_solo" id="09FFD7B6-9613-8222-08A1-3EE28D731DDA">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>037D42DE-7BB4-2DC7-6E94-D20F95DC473E</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="risco_praga" id="09610B07-07BB-5FD4-E939-1ED7D7AA0F80">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>7D59E4A1-7498-05CD-5EB1-A7DAA02C6D2F</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indice_vegetacao" id="30811DF9-48D4-76CE-E18E-B2EE2A8854DA">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>1170E90B-4A05-B80A-89F6-8C87A23A640A</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacao" id="AC47E1D5-4079-BE87-AB7A-B28F02366BB3">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>2D559EA0-5304-EB08-B74A-F8E3EAF9EE1B</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_analise" id="087856AB-9E5C-D758-75FE-23DF7A69085A">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>83982DD3-666C-4C44-EDA0-E46BE1CD7C89</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lote_id_lote" id="D4218295-0DCD-AAC7-0C98-DF4C2BDE1780">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>F08E47C7-8E59-81CD-8CB3-2DCE08507621</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80DF6385-795B-DE81-9929-09CD48641462" referredColumn="FFBA14AF-02B4-C0E2-EC58-CDDF16CA45DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C317BBB9-3753-5C11-68AA-7953DE5DCC53" name="analise_satelital_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>06FD7161-BFE6-A047-E607-AFC73309302F</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9B19FFF-50EF-406A-2433-6B39EA846E6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8D56E41-DA04-2765-6394-5DFE10C3306E" name="analise_satelital_lote_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>B547E81A-6DAE-FBEC-C744-C94FD4C8F3F8</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4218295-0DCD-AAC7-0C98-DF4C2BDE1780"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

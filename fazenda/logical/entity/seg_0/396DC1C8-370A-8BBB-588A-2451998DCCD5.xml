@@ -1,11 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="396DC1C8-370A-8BBB-588A-2451998DCCD5" name="lote">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="396DC1C8-370A-8BBB-588A-2451998DCCD5" name="talhao">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-27 20:41:20 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -15,39 +12,30 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_lote" id="5BDA2553-AECF-C6A7-67E9-54B99304255B">
+<Attribute name="id_talhao" id="5BDA2553-AECF-C6A7-67E9-54B99304255B">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-27 20:41:28 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nome_lote" id="6185E6D8-6475-906F-C229-BDF5CBCFDE4B">
+<Attribute name="nome_talhao" id="6185E6D8-6475-906F-C229-BDF5CBCFDE4B">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:05:05 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="area_hectares" id="3459C617-175A-D6CD-DD22-1FD0E93CCC07">
+<Attribute name="volum_area" id="3459C617-175A-D6CD-DD22-1FD0E93CCC07">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-27 20:51:16 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT020</logicalDatatype>
@@ -55,40 +43,36 @@
 <dataTypeScale>4</dataTypeScale>
 <ownDataTypeParameters>,10,4</ownDataTypeParameters>
 </Attribute>
-<Attribute name="status_lote" id="2939034C-1F1C-F426-0C32-F74A1235F35C">
+<Attribute name="id_tipo_plant" id="88D2F6B6-3C51-0D99-B4D6-87E2A1D95175">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 19:05:26 UTC</createdTime>
+<createdTime>2026-05-27 20:45:27 UTC</createdTime>
+<generatorID>076B28A7-667F-27EE-A0A9-D233B0A0BDFE</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
+<referedAttribute>E45AFF34-E47C-9AAB-5B09-0CE4F471EF6E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="geom" id="C890B2AE-2577-A9F9-5EEF-5BFF2B4BC552">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 19:06:57 UTC</createdTime>
-<ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>3</use>
-<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_fazenda" id="D41E724A-D42B-D8C9-B8D8-9B5E6A6D9A95">
+<Attribute name="id_propriedade" id="D41E724A-D42B-D8C9-B8D8-9B5E6A6D9A95">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-27 20:45:42 UTC</createdTime>
 <generatorID>FC63AAF9-5B4F-51C4-243D-E1B66D4117D8</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <referedAttribute>F54E9479-900A-F103-238D-151460D26C0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_localizacao" id="081CD6B5-126B-3F2B-2C14-18860DAF6EC1">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-30 14:04:07 UTC</createdTime>
+<generatorID>EC4AEB37-309E-9A85-B525-62EA6ED0A84C</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referedAttribute>9A973AE9-8B69-BF8C-B232-B9BB70DD6C61</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -101,9 +85,6 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-27 20:41:38 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="F0D03ADA-AA70-D386-0DA5-52EECB2EFBA5" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>5BDA2553-AECF-C6A7-67E9-54B99304255B</attributeRef>

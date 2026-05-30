@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D40EC6BA-D079-355F-E19C-0F2B95ACD45E" name="nasapower">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-30 00:26:45 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_nasapower" id="1AC7C533-B75F-F572-DC4C-0D56CE3AAF1D">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-30 00:26:54 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_inicio" id="E0375BBC-2AC3-284D-EB18-48C77ACE87C8">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-30 00:33:27 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_fim" id="16B32029-2928-DB2D-4968-53FC48CDBA3C">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-30 15:46:25 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="2D96F38A-052C-E9C3-D924-ACEE3B0D0DF3">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-30 15:46:35 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="A0B0E298-77BA-F477-975B-5A25179015C1">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-30 15:49:05 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,10,6</ownDataTypeParameters>
+</Attribute>
+<Attribute name="elevacao" id="BF596C57-4CD8-18E8-E001-1D63FED2C64A">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-30 15:46:59 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_talhao" id="68EB69A5-68E0-29AB-FD37-86BD5BD7B508">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-30 15:58:10 UTC</createdTime>
+<generatorID>DB20C3A8-17D9-8FB4-68E0-C805920AD3F2</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referedAttribute>5BDA2553-AECF-C6A7-67E9-54B99304255B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AEF9FC59-2A14-FE57-C5EA-969BFD54D390" name="climAPI PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-30 00:33:20 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AC7C533-B75F-F572-DC4C-0D56CE3AAF1D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

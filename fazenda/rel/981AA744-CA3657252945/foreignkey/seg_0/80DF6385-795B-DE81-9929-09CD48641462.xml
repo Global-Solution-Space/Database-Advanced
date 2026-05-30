@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="80DF6385-795B-DE81-9929-09CD48641462" containerWithKeyObject="41789345-8FB8-83DF-BF3D-0DDE5B28747C" localFKIndex="C8D56E41-DA04-2765-6394-5DFE10C3306E" name="analise_satelital_lote_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>B547E81A-6DAE-FBEC-C744-C94FD4C8F3F8</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>lote</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5FEC7DEE-BCCF-2E4D-4AB9-4A480FD08D46</referredTableID>
+<keyObject>7F7DBCFD-B25D-74AB-214F-6CF3CA7A4DD3</keyObject>
+<referredKeyID>7F7DBCFD-B25D-74AB-214F-6CF3CA7A4DD3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_lote</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6A8FFD49-409C-E0D9-F6F2-4DDB10ACE633" containerWithKeyObject="5FEC7DEE-BCCF-2E4D-4AB9-4A480FD08D46" localFKIndex="12783527-2AD9-1F32-7071-BF1DFF992D0E" name="lote_cultura_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-29 10:30:50 UTC</createdTime>
+<generatorID>076B28A7-667F-27EE-A0A9-D233B0A0BDFE</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>cultura</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1FEF5FCB-CDFC-7C0E-794E-A3E707D01BC7</referredTableID>
+<keyObject>B46DEFD7-C3F1-B7CD-785A-3D4322812457</keyObject>
+<referredKeyID>B46DEFD7-C3F1-B7CD-785A-3D4322812457</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cultura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
