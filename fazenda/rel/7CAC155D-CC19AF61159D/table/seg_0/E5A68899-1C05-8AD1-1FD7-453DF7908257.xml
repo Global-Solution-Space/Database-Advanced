@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AF68F7C-BD6F-9F6B-37F8-26573F02CD96" name="produtor">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5A68899-1C05-8AD1-1FD7-453DF7908257" name="produtor">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>4E0752B8-9EC3-891A-D4D2-A357F76270D6</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_produtor" id="7CA49402-1FE7-CF22-83EA-2F4C2DC61F5D">
+<Column name="id_produtor" id="9045AAE3-4D34-2192-4C46-6E94853A3F87">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>E3BE2FE8-E841-87E2-BA20-C126CC4ED8EE</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nome" id="115A469E-70E3-1F3F-859B-C3DC1C1BB6C5">
+<Column name="nome" id="FC653DC1-0B82-019A-3811-1129A1E74BD7">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>6CC77948-92F0-7994-315F-BCD39B620608</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="email" id="1D6EE787-9A5D-9A22-9918-CCE2C20FCC04">
+<Column name="email" id="D3563630-6E40-3CE5-D3E8-BFB55963590B">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>B3B8A4F3-E013-5968-47D0-6F748078DE01</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,9 +44,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="senha" id="EA98EE0F-406E-2715-955D-06B50FDB298F">
+<Column name="senha" id="50BCDF1B-7686-A75C-2C50-6701A5B4BB41">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>FE50E908-71F4-39BF-3AFE-1ED9226218FF</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,30 +56,18 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="telefone" id="8411FE81-D485-47D8-34F3-5E3485269972">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
-<generatorID>A88712CC-C380-FFD5-5E99-3429698FFCDD</generatorID>
-<ownerDesignName>fazenda</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>11</dataTypeSize>
-<ownDataTypeParameters>11,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5900684A-EC46-576A-67FB-27E35334158C" name="produtor_PK">
+<ind_PK_UK id="443B8F54-5C8E-19DA-A790-5B93B7BAACBA" name="produtor_PK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>2073F743-A64C-6AAB-72B1-7EDC3FAB2A04</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7CA49402-1FE7-CF22-83EA-2F4C2DC61F5D"/>
+<colUsage columnID="9045AAE3-4D34-2192-4C46-6E94853A3F87"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

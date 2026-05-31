@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="500BA268-6B31-208F-84A4-25B760FFEB4D" containerWithKeyObject="6DF5BC5C-8A32-5D72-623E-39181A0458AC" localFKIndex="03109C86-9697-F09F-4624-B47BAF110EAA" name="alerta_agricola_nasapower_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
+<generatorID>451F746C-05A0-16DE-E534-0E3B42F5FB2E</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>nasapower</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D24FBC1D-EABF-C52D-764A-B1DF25E5A8A3</referredTableID>
+<keyObject>DFAD18E1-42F6-928B-5083-8568258F8885</keyObject>
+<referredKeyID>DFAD18E1-42F6-928B-5083-8568258F8885</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nasapower</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

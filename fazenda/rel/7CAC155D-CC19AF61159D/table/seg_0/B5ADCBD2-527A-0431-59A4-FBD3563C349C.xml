@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7B8236D-5DE9-2E4D-317B-D9B3248D036E" name="localizacao">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5ADCBD2-527A-0431-59A4-FBD3563C349C" name="localizacao">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>44C2D6C0-185A-C662-F03D-5CD9464DE4E5</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_localizacao" id="C10BC6E8-694B-DC50-B06B-5525BBE1C4F6">
+<Column name="id_localizacao" id="F10AE6DC-6A0C-0602-C6B3-B071EEA5C8D7">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>9A973AE9-8B69-BF8C-B232-B9BB70DD6C61</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="loc_latitude" id="CB6E803A-56ED-7EFE-24DD-53816A3265D5">
+<Column name="loc_latitude" id="95A8C78C-B683-9C1E-F56B-55E973797FCE">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>BA5AECAA-8089-9C19-F08D-AFD0F8387A40</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,9 +33,9 @@
 <ownDataTypeParameters>,8,6</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="loc_longitude" id="A3398020-A948-7B00-2792-86F16B7CEEE6">
+<Column name="loc_longitude" id="65ED7508-7FC5-0575-F2F1-5C796E453108">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>C20E425B-3CA3-0426-9947-4BA20D098C42</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,16 +48,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FAB057DB-024A-87B8-028A-655D454A2EA8" name="localizacao_PK">
+<ind_PK_UK id="FBDC0102-146A-2830-5193-F2F9B22A5363" name="localizacao_PK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>6761D8EC-5975-0C01-6705-CC41AA3A31C9</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C10BC6E8-694B-DC50-B06B-5525BBE1C4F6"/>
+<colUsage columnID="F10AE6DC-6A0C-0602-C6B3-B071EEA5C8D7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

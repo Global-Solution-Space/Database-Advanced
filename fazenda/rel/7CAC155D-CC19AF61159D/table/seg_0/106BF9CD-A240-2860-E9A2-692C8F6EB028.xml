@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C5C126B-BDC7-67C8-C531-0129E1CA57A5" name="propriedade">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="106BF9CD-A240-2860-E9A2-692C8F6EB028" name="propriedade">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>3F0019B3-C514-32E1-D9C4-74FFFD41867A</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_propriedade" id="A132FE70-9EE4-AA66-EC47-05A76F48C5D8">
+<Column name="id_propriedade" id="175F3A7C-6411-747D-F6C3-22DC72A1C48C">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>F54E9479-900A-F103-238D-151460D26C0A</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nome" id="B26CF5CC-A5A1-359C-7831-7658D0D39820">
+<Column name="nome" id="8E774897-EE6F-60D5-02F3-DA96ABAB5B76">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>8D18509F-58EE-4A68-93D5-F2182505801A</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tamanho_total" id="CA909733-AC30-C4D5-D309-61FD7FADE34D">
+<Column name="tamanho_total" id="09ABB436-C8F3-8C2C-B8D6-AA0F25F9D06B">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>E853CE05-70F8-D216-24F7-D3A001976D3E</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,9 +45,9 @@
 <ownDataTypeParameters>,100,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="produtor_id_produtor" id="04900359-930B-4941-50CD-7540E8CA54F2">
+<Column name="produtor_id_produtor" id="B40918D8-0D4C-38F2-AB18-AD59B8B33D29">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>0CE84768-512A-28BF-67C2-580845A36D96</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,12 +58,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CDEDE6CB-FAB0-8DC0-AED5-A3679906A808" referredColumn="7CA49402-1FE7-CF22-83EA-2F4C2DC61F5D"/>
+<colAssociation fkAssociation="F13E907D-A757-4DAC-5457-0FD652D5EF2E" referredColumn="9045AAE3-4D34-2192-4C46-6E94853A3F87"/>
 </associations>
 </Column>
-<Column name="localizacao_id_localizacao" id="C3F94CD0-F136-9803-836C-9DF52EC4D773">
+<Column name="localizacao_id_localizacao" id="B33C6767-9D1F-BE0E-2CF6-97942F448961">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>CA77385B-8E02-2750-3AF5-565E510AA0AD</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,54 +74,54 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="17550CA4-3CB4-CAB2-875E-56B796862D3C" referredColumn="C10BC6E8-694B-DC50-B06B-5525BBE1C4F6"/>
+<colAssociation fkAssociation="313C526D-18D2-8047-DC26-6A934EBC3604" referredColumn="F10AE6DC-6A0C-0602-C6B3-B071EEA5C8D7"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7C7417D0-DB73-F4F6-1EE5-FD16BD5FBBE6" name="propriedade_PK">
+<ind_PK_UK id="67AA3630-CD59-3F90-A458-AE150A8F7ED9" name="propriedade_PK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>F6931C61-0B7D-2AE3-8A29-47099EC0ECC5</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A132FE70-9EE4-AA66-EC47-05A76F48C5D8"/>
+<colUsage columnID="175F3A7C-6411-747D-F6C3-22DC72A1C48C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6BB3B706-39AE-F8BF-78AC-6128DEE87630" name="propriedade__IDX">
+<ind_PK_UK id="FE45F961-E45E-A2D6-C709-AD5292695E44" name="propriedade__IDX">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>54F7B837-9CDC-0E34-E23F-D39C818B74EC</relationGeneratorID>
 <indexColumnUsage>
-<colUsage columnID="C3F94CD0-F136-9803-836C-9DF52EC4D773"/>
+<colUsage columnID="B33C6767-9D1F-BE0E-2CF6-97942F448961"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E44A678B-A917-02AA-5505-1793FCCEF385" name="propriedade_localizacao_FK">
+<ind_PK_UK id="1452270F-EE76-646E-94D6-76FF5050DA60" name="propriedade_localizacao_FK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>54F7B837-9CDC-0E34-E23F-D39C818B74EC</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C3F94CD0-F136-9803-836C-9DF52EC4D773"/>
+<colUsage columnID="B33C6767-9D1F-BE0E-2CF6-97942F448961"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BCD1DB3B-FB9D-7017-64BD-677CF05EE247" name="propriedade_produtor_FK">
+<ind_PK_UK id="9DC19508-8221-B51A-FC5A-525E5E2FD0CB" name="propriedade_produtor_FK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>268B7E49-ECE4-24A3-5746-97E5DE2AC564</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="04900359-930B-4941-50CD-7540E8CA54F2"/>
+<colUsage columnID="B40918D8-0D4C-38F2-AB18-AD59B8B33D29"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

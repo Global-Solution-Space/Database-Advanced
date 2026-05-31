@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E6E83B8-0FAC-7CDC-D7C0-48749142437F" name="satveg">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71804AB9-9A36-56BD-ACE1-C9CEA03D2734" name="satveg">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>9A8AB7C3-600A-029F-CF51-3B64506281B0</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_satveg" id="6C7E98EB-80C7-850B-0840-038E27AAA7BE">
+<Column name="id_satveg" id="AFDD2B87-F8BF-4DDF-FAA5-FADC381F9A71">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>2F232D54-CC89-ED1E-5101-9C94188B9AD6</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tipo_perfil" id="B984EDE7-C8F6-79CC-88F0-38D784666D55">
+<Column name="tipo_perfil" id="4AFE17EC-1BD4-F46E-939E-91428516023F">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>DC48C23B-F3D4-A3A9-0EC5-8434B627AA2A</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,9 +33,9 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="satelite" id="E9802A50-88B5-22C7-F905-B2D56BEB9E56">
+<Column name="satelite" id="DFCF1566-0961-1F7F-6839-318A669E5EAC">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>E9C1181C-D0F1-5836-44B1-8B3E2978A622</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,9 +46,9 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="pre_filtro" id="98D803EB-801D-F4D4-B468-8428F418109B">
+<Column name="pre_filtro" id="9D85535A-5DFF-CBB0-5ED4-8F497A7E94F5">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>81A9D743-A7D5-123A-82D2-914C9CAC5D74</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -59,9 +59,9 @@
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="filtro" id="6D46BAF6-E127-5DFE-27C3-FEF650030CCD">
+<Column name="filtro" id="10FE530F-1F45-283D-F547-9777484DB4BC">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>7D59E4A1-7498-05CD-5EB1-A7DAA02C6D2F</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -72,9 +72,9 @@
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="parametro_filtro" id="91F1F846-AF1F-EB89-7F25-185278CCB79E">
+<Column name="parametro_filtro" id="D3373FA2-7BE4-456C-CC43-253FF7019EDE">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>AA94C0ED-2102-E943-8806-6DDB4DDF73D7</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -85,31 +85,9 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="poligono" id="5360160C-2C73-5662-571C-9DEE538901DC">
+<Column name="data_analise" id="74C536DF-C458-8DDF-159F-DDB866ED510A">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
-<generatorID>A87EFF9A-6B37-8C18-6238-E9FC547AF881</generatorID>
-<ownerDesignName>fazenda</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT028</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="todas_estatisticas" id="BAF82952-3BB1-D846-F746-7B46BA81D6D2">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
-<generatorID>5CC0CEFB-E984-F5FC-F9D8-43B7551953CD</generatorID>
-<ownerDesignName>fazenda</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="data_analise" id="7962B5B5-5F4B-C0D2-691D-7E485BC294F2">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>83982DD3-666C-4C44-EDA0-E46BE1CD7C89</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -118,9 +96,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="talhao_id_talhao" id="B9928003-88F9-31FC-AB7C-4331F3721A49">
+<Column name="talhao_id_talhao" id="EB434274-E808-7ECA-1D26-7CB6BD9358F3">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>F08E47C7-8E59-81CD-8CB3-2DCE08507621</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -131,32 +109,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CD2AD5D1-E565-539E-70B9-186393451FB1" referredColumn="D82A7779-5A60-BF78-7D93-DE5C25B4A604"/>
+<colAssociation fkAssociation="C23973CD-1EA4-6B0C-42A5-87F9D8679216" referredColumn="B78EF53A-EFD2-2E4E-3FAF-BD167BB8B326"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="83508838-54DA-2D17-3985-A1E4F6064E06" name="satveg_PK">
+<ind_PK_UK id="9BE6B820-A5EE-2A9B-5B74-53E0E8E6C939" name="satveg_PK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>06FD7161-BFE6-A047-E607-AFC73309302F</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6C7E98EB-80C7-850B-0840-038E27AAA7BE"/>
+<colUsage columnID="AFDD2B87-F8BF-4DDF-FAA5-FADC381F9A71"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="40779FAE-DD08-4830-62F5-DEF50DF6DE0A" name="satveg_talhao_FK">
+<ind_PK_UK id="864D401D-F25F-10B5-5CC5-01EB8DFE9F0D" name="satveg_talhao_FK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:51 UTC</createdTime>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
 <generatorID>B547E81A-6DAE-FBEC-C744-C94FD4C8F3F8</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B9928003-88F9-31FC-AB7C-4331F3721A49"/>
+<colUsage columnID="EB434274-E808-7ECA-1D26-7CB6BD9358F3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

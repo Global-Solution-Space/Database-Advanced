@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8969D7EF-3A10-260C-E741-1D6565A00FB5" containerWithKeyObject="6DF5BC5C-8A32-5D72-623E-39181A0458AC" localFKIndex="17CCD456-9638-D436-FD81-7D8A50556E82" name="alerta_agricola_satveg_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-05-31 22:08:27 UTC</createdTime>
+<generatorID>1F4E162A-BF61-CCE8-BBBB-06D60908E311</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>satveg</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>71804AB9-9A36-56BD-ACE1-C9CEA03D2734</referredTableID>
+<keyObject>9BE6B820-A5EE-2A9B-5B74-53E0E8E6C939</keyObject>
+<referredKeyID>9BE6B820-A5EE-2A9B-5B74-53E0E8E6C939</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_satveg</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
