@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F94189F8-F448-2178-737C-9D731B39C493" name="alerta_agricola">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 23:13:11 UTC</createdTime>
+<generatorID>745B1CC8-E0F4-FC32-AB77-8F93B63C736A</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alerta" id="55B8DEEB-DD86-0125-7FFB-1B07F54668C6">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 23:13:11 UTC</createdTime>
+<generatorID>FB774A8B-9AC7-DB43-F822-BFBFFFDC5989</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="1C2E1172-5885-D856-AFEB-B1BD9DFAEF98">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 23:13:11 UTC</createdTime>
+<generatorID>0E4A61D8-492C-2D7C-FC60-E86FB3E41A36</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="1D68D63C-77B1-FFDB-8403-594CB03D96C5">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 23:13:11 UTC</createdTime>
+<generatorID>03611887-21BE-840C-78AC-2020BEC67096</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_alerta" id="A3D9639B-9EA7-F261-A5A7-B1CEC3643844">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 23:13:11 UTC</createdTime>
+<generatorID>27EDD370-F096-6831-6134-87467C835542</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resolvido" id="69ABD399-B78E-F4BD-B5B4-3C896895B0A0">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 23:13:11 UTC</createdTime>
+<generatorID>6BADC051-B2D3-E5A4-36BA-69113FD758C6</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_alerta" id="557CDB95-CDB5-96C8-BF3E-28122D577926">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 23:13:11 UTC</createdTime>
+<generatorID>8B1B6E76-2523-5F08-C255-33121AAB8ADA</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="talhao_id_talhao" id="45B9BA1A-026C-96D6-3079-2165DC61847F">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 23:13:11 UTC</createdTime>
+<generatorID>253ED69B-51B0-1DB3-0527-B852C25D0B00</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47498009-D029-BDC7-1A75-DA508BF4E6C0" referredColumn="176164A6-D158-6367-8F84-6B935F369BA4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="435A03F3-AE14-41A7-BF54-5CD37E27E493" name="alerta_agricola_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 23:13:11 UTC</createdTime>
+<generatorID>AD42ED07-8935-7C6E-89EC-BBE89E6AE884</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55B8DEEB-DD86-0125-7FFB-1B07F54668C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C8F1AD8-39B5-EBC5-3EC4-0C5E1755B245" name="alerta_agricola_talhao_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 23:13:11 UTC</createdTime>
+<generatorID>6D47A776-80FC-2536-3A38-DCD8002F73F6</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45B9BA1A-026C-96D6-3079-2165DC61847F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

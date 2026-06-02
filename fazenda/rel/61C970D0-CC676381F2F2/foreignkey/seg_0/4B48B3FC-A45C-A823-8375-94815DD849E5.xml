@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4B48B3FC-A45C-A823-8375-94815DD849E5" containerWithKeyObject="6FD97271-B547-5644-F98E-E99F28ED893B" localFKIndex="1194ABB5-ABCE-07AF-AC2C-36BEDEA0B3D0" name="dado_temporal_nasapower_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 23:13:11 UTC</createdTime>
+<generatorID>AB174394-C261-E989-5817-B18D660DF76B</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>nasapower</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DFCADE6F-2DC8-829E-983C-D4DC79B4334B</referredTableID>
+<keyObject>9E79B046-37DF-A0D6-9A34-ED77AE1B156E</keyObject>
+<referredKeyID>9E79B046-37DF-A0D6-9A34-ED77AE1B156E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nasapower</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
