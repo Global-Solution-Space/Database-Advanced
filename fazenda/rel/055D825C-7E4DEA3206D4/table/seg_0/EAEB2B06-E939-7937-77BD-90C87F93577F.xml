@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CED3CD6A-D4CF-BCC9-AEBC-7362AF8D338D" name="nasapower">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAEB2B06-E939-7937-77BD-90C87F93577F" name="nasapower">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<createdTime>2026-06-02 15:20:23 UTC</createdTime>
 <generatorID>D40EC6BA-D079-355F-E19C-0F2B95ACD45E</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_nasapower" id="70F32F6B-8ED5-72AF-DEB6-0E5F5590A853">
+<Column name="id_nasapower" id="321DCA2D-B999-4785-4E13-7E666799108C">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<createdTime>2026-06-02 15:20:23 UTC</createdTime>
 <generatorID>1AC7C533-B75F-F572-DC4C-0D56CE3AAF1D</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="parametro" id="3EBB4C3A-4CC4-CF82-C50C-45DFF6395321">
+<Column name="parametro" id="B83C2FC6-8229-BE6A-682F-F99A2FE3741F">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<createdTime>2026-06-02 15:20:23 UTC</createdTime>
 <generatorID>0422D17E-D03E-0478-6925-39D6A1C62A2E</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data_inicio" id="E611E095-D7DB-CF5C-4794-86AEF6DC6F8E">
+<Column name="data_inicio" id="52D78FCD-DDCC-5C0E-B40E-404FB6DCE4DE">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<createdTime>2026-06-02 15:20:23 UTC</createdTime>
 <generatorID>F152D5D2-1B99-693C-1DE0-817C661F326D</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,9 +43,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data_fim" id="A1712BB7-11F7-E460-9CC9-51F0C783BA93">
+<Column name="data_fim" id="8164F8F4-7D7A-94CC-D3EE-BAEE3C247BEF">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<createdTime>2026-06-02 15:20:23 UTC</createdTime>
 <generatorID>010612C9-2137-4F16-E25F-3859D6C90399</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,9 +54,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data_analise" id="CB56B502-9E8D-F783-F3BD-AD0FCC4B49B9">
+<Column name="data_analise" id="0EBA7658-F90E-7595-16E0-227E687BDF15">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<createdTime>2026-06-02 15:20:23 UTC</createdTime>
 <generatorID>F5A3C9A4-3AF3-DD38-AD3A-E1ADA6586CB6</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -65,9 +65,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="dados_json" id="DC24A208-9294-57EF-A8D6-D9D03D417D4D">
+<Column name="dados_json" id="7EA8D553-56DD-8F9F-C8B4-B34E883AA31B">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<createdTime>2026-06-02 15:20:23 UTC</createdTime>
 <generatorID>628C4EAF-75DD-A261-7D6B-8F484EE59A4D</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,9 +76,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="talhao_id_talhao" id="A363F71C-5E35-C88A-6963-F1B406DC1454">
+<Column name="talhao_id_talhao" id="910A9B27-4F31-868E-E6DF-9304853EE0E8">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<createdTime>2026-06-02 15:20:23 UTC</createdTime>
 <generatorID>68EB69A5-68E0-29AB-FD37-86BD5BD7B508</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -89,32 +89,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0CF689EA-5652-1319-C11D-2BD20B3534E3" referredColumn="5D68D8C9-903B-234F-E0C7-8747BD62F009"/>
+<colAssociation fkAssociation="549A62CA-F9AC-FB2C-0963-BF04C9058FBE" referredColumn="BE7587F6-EE29-399A-5A52-A810CCCCBB11"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8D38F199-BDBB-6896-9788-68889EA01B33" name="nasapower_PK">
+<ind_PK_UK id="6C3587C7-4A84-7F92-C516-A21ED417C8B1" name="nasapower_PK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<createdTime>2026-06-02 15:20:23 UTC</createdTime>
 <generatorID>AEF9FC59-2A14-FE57-C5EA-969BFD54D390</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="70F32F6B-8ED5-72AF-DEB6-0E5F5590A853"/>
+<colUsage columnID="321DCA2D-B999-4785-4E13-7E666799108C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="401AD5EE-0F3B-3B8D-EFD2-59855948FB92" name="nasapower_talhao_FK">
+<ind_PK_UK id="D23E3E3C-9742-C75E-B403-3AEE2329DE51" name="nasapower_talhao_FK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<createdTime>2026-06-02 15:20:23 UTC</createdTime>
 <generatorID>DB20C3A8-17D9-8FB4-68E0-C805920AD3F2</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A363F71C-5E35-C88A-6963-F1B406DC1454"/>
+<colUsage columnID="910A9B27-4F31-868E-E6DF-9304853EE0E8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
