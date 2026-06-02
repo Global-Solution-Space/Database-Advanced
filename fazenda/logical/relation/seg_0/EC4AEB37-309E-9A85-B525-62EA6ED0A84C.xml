@@ -1,8 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_13" directorySegmentName="seg_0" id="EC4AEB37-309E-9A85-B525-62EA6ED0A84C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="talhao localizacao FK" directorySegmentName="seg_0" id="EC4AEB37-309E-9A85-B525-62EA6ED0A84C">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-30 14:04:07 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
+<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+</engineerTo>
 <sourcePk>6761D8EC-5975-0C01-6705-CC41AA3A31C9</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

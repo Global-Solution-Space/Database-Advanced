@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2713EF74-24F8-39F9-6750-071174CD60B1" name="dado_temporal">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>24E25753-2A69-54C0-D397-22CEE8C633DE</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dado" id="13DD0884-CBD2-A46C-7936-F93CED93A5E0">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>002C872A-FD30-86C1-378E-038E6670D273</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_leitura" id="44EDE018-4744-8CC7-8E9D-60FAD2A777C9">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>54B9C4C4-1721-C36D-940E-5AB01146718D</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="1722DE6A-022F-73EE-B7AA-26BA9472FABA">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>EF62CB8A-5DF9-90A7-F6A5-6C35A6EB7CB4</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nasapower_id_nasapower" id="B5A9871B-BF16-29C1-56B9-307969DF7CFF">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>C694AD0B-8F58-48D8-0CCE-C92DEC9FA2D8</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88EB9D77-9DCB-AC6E-E438-C279081972AD" referredColumn="0B6EDA27-93CA-F97E-3766-3728C8CAB3D6"/>
+</associations>
+</Column>
+<Column name="satveg_id_satveg" id="8042EEFA-68C8-9ABA-67AE-2EAA785B4284">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>3F15ECCB-C807-5B96-2420-3AE3608077A6</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EA8B562-8662-AB79-86F2-2BE8878E401D" referredColumn="D1994DEB-BC9C-73B1-A51C-9DC872C8220A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBE51C96-FCE9-B155-A4D7-E1CE3B286563" name="dado_temporal_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>96DE7C9B-3F7F-205C-F1D3-219AE0F9769E</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13DD0884-CBD2-A46C-7936-F93CED93A5E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F1E4983-EC27-6795-46C0-4BD807D69321" name="dado_temporal_nasapower_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>AB174394-C261-E989-5817-B18D660DF76B</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5A9871B-BF16-29C1-56B9-307969DF7CFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FC6FBA0-8B2D-EF97-A906-39B1C374382C" name="dado_temporal_satveg_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>D4B3DE9D-5ACD-94A3-FB76-5F62AB3055B1</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8042EEFA-68C8-9ABA-67AE-2EAA785B4284"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

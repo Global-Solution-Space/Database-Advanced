@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9014B7AE-BCE1-FD4A-6868-1B59739CB81C" name="nasapower">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>A3C9BB4E-C580-2D1C-B569-2DCEE433787C</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nasapower" id="0B6EDA27-93CA-F97E-3766-3728C8CAB3D6">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>15AA2A41-B4E2-E874-EE9F-12F573AC2A17</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parametro" id="D54C0C62-FAC0-A739-6310-364CDB0B08FE">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>9AAC1C77-0408-F164-A578-E0F50D71E546</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_inicio" id="34FC3580-C039-FF54-816D-B57F03D0B622">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>751700E2-5574-5298-106D-CF941ECA1A5B</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_fim" id="F0DAE30D-5A51-0984-7DB9-CB21364DD464">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>CD3CD7FF-CC47-DBD7-8149-763331403E21</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_analise" id="446545B5-46AE-33A5-52D6-0ACCD6454DDE">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>36455696-68DE-9ACA-E130-2B1AE764F600</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="talhao_id_talhao" id="5047526B-B0E9-49AA-D4A3-8F3B3E0C64E7">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>1DA35161-0424-1B27-AD08-11875CC362D7</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C309BBFB-2511-9554-CD4B-3BDDBCDE3743" referredColumn="170D1446-A372-4A36-6D52-EB6679C03DDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6BF9A62-64E2-A08A-A35D-4BBBFBA62DDB" name="nasapower_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>2A849241-3664-4761-55C2-D83BC13AE515</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B6EDA27-93CA-F97E-3766-3728C8CAB3D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49F56E5E-A868-3BBA-1790-176EAA80DCE4" name="nasapower_talhao_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>301D4E49-EFF3-9AF3-4A8D-A6FCC461B9BC</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5047526B-B0E9-49AA-D4A3-8F3B3E0C64E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -3,6 +3,10 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-29 16:51:24 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
+<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +20,10 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-29 16:51:29 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
+<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -26,6 +34,10 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-29 16:51:34 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
+<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -36,6 +48,10 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-29 16:51:49 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
+<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -47,6 +63,10 @@
 <createdTime>2026-05-29 16:52:56 UTC</createdTime>
 <generatorID>3FC07A53-BF3A-9A94-C3E7-6ED188BD546A</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
+<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+</engineerTo>
 <referedAttribute>E3BE2FE8-E841-87E2-BA20-C126CC4ED8EE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -60,6 +80,10 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-29 16:51:33 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
+<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>C1153E8D-C00A-6944-9AD4-7A26796B9EAE</attributeRef>

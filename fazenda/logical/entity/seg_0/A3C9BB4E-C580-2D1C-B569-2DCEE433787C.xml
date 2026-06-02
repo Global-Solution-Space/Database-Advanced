@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="745B1CC8-E0F4-FC32-AB77-8F93B63C736A" name="alerta_agricola">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3C9BB4E-C580-2D1C-B569-2DCEE433787C" name="nasapower">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 19:16:54 UTC</createdTime>
+<createdTime>2026-06-02 19:56:16 UTC</createdTime>
+<generatorID>339C1F7D-D59D-6295-3EAA-76350F09C4C5</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
 <item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -16,12 +16,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_alerta" id="FB774A8B-9AC7-DB43-F822-BFBFFFDC5989">
+<Attribute name="id_nasapower" id="15AA2A41-B4E2-E874-EE9F-12F573AC2A17">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 19:17:03 UTC</createdTime>
+<createdTime>2026-06-02 19:56:16 UTC</createdTime>
+<generatorID>890623C8-05CC-4AA5-E84F-FB00B285F87D</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
 <item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,68 +30,52 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="titulo" id="0E4A61D8-492C-2D7C-FC60-E86FB3E41A36">
+<Attribute name="parametro" id="9AAC1C77-0408-F164-A578-E0F50D71E546">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 19:17:11 UTC</createdTime>
+<createdTime>2026-06-02 19:56:16 UTC</createdTime>
+<generatorID>B1784FBD-CE0A-DE9A-0FFE-5D15FB1E387E</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
 <item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="descricao" id="03611887-21BE-840C-78AC-2020BEC67096">
+<Attribute name="data_inicio" id="751700E2-5574-5298-106D-CF941ECA1A5B">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 19:17:26 UTC</createdTime>
+<createdTime>2026-06-02 19:56:16 UTC</createdTime>
+<generatorID>211F16DD-C1A6-7808-831D-044A6D5B904E</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
 <item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>300</dataTypeSize>
-<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nivel_alerta" id="27EDD370-F096-6831-6134-87467C835542">
+<Attribute name="data_fim" id="CD3CD7FF-CC47-DBD7-8149-763331403E21">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 19:17:42 UTC</createdTime>
+<createdTime>2026-06-02 19:56:16 UTC</createdTime>
+<generatorID>CC5C6442-E932-0379-E294-4D5C0BA464E8</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
 <item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="resolvido" id="6BADC051-B2D3-E5A4-36BA-69113FD758C6">
+<Attribute name="data_analise" id="36455696-68DE-9ACA-E130-2B1AE764F600">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 19:17:57 UTC</createdTime>
+<createdTime>2026-06-02 19:56:16 UTC</createdTime>
+<generatorID>4A1F6795-980F-266C-17DE-ADD53B433E08</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="data_alerta" id="8B1B6E76-2523-5F08-C255-33121AAB8ADA">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 19:18:12 UTC</createdTime>
-<ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
 <item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -99,13 +83,12 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_talhao" id="253ED69B-51B0-1DB3-0527-B852C25D0B00">
+<Attribute name="id_talhao" id="1DA35161-0424-1B27-AD08-11875CC362D7">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-01 18:31:05 UTC</createdTime>
-<generatorID>6D47A776-80FC-2536-3A38-DCD8002F73F6</generatorID>
+<createdTime>2026-06-02 20:20:27 UTC</createdTime>
+<generatorID>301D4E49-EFF3-9AF3-4A8D-A6FCC461B9BC</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
 <item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
 </engineerTo>
 <referedAttribute>5BDA2553-AECF-C6A7-67E9-54B99304255B</referedAttribute>
@@ -117,17 +100,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="AD42ED07-8935-7C6E-89EC-BBE89E6AE884" name="alerta_agricola_PK">
+<identifier id="2A849241-3664-4761-55C2-D83BC13AE515" name="nasapower PK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 19:17:10 UTC</createdTime>
+<createdTime>2026-06-02 19:56:16 UTC</createdTime>
+<generatorID>B728226E-09DF-B458-5267-D6C5C8540D75</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
 <item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FB774A8B-9AC7-DB43-F822-BFBFFFDC5989</attributeRef>
+<attributeRef>15AA2A41-B4E2-E874-EE9F-12F573AC2A17</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="propriedade produtor FK" directorySegmentName="seg_0" id="268B7E49-ECE4-24A3-5746-97E5DE2AC564">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dado_temporal_nasapower_FK" directorySegmentName="seg_0" id="AB174394-C261-E989-5817-B18D660DF76B">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 17:57:57 UTC</createdTime>
+<createdTime>2026-06-02 19:56:16 UTC</createdTime>
+<generatorID>C74E2254-A157-55C5-1DF1-E703B746485C</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
 <item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
 </engineerTo>
-<sourcePk>2073F743-A64C-6AAB-72B1-7EDC3FAB2A04</sourcePk>
+<sourcePk>2A849241-3664-4761-55C2-D83BC13AE515</sourcePk>
 <identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>4E0752B8-9EC3-891A-D4D2-A357F76270D6</sourceEntity>
+<sourceEntity>A3C9BB4E-C580-2D1C-B569-2DCEE433787C</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>3F0019B3-C514-32E1-D9C4-74FFFD41867A</targetEntity>
+<targetEntity>24E25753-2A69-54C0-D397-22CEE8C633DE</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

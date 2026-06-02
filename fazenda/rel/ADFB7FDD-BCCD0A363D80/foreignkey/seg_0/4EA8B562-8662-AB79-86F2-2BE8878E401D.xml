@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4EA8B562-8662-AB79-86F2-2BE8878E401D" containerWithKeyObject="2713EF74-24F8-39F9-6750-071174CD60B1" localFKIndex="4FC6FBA0-8B2D-EF97-A906-39B1C374382C" name="dado_temporal_satveg_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 20:29:12 UTC</createdTime>
+<generatorID>D4B3DE9D-5ACD-94A3-FB76-5F62AB3055B1</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>satveg</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6975A28A-408B-CE77-66D5-AAAF0BABBEE3</referredTableID>
+<keyObject>9B9F65F3-6509-932E-A9F8-295CB0B44999</keyObject>
+<referredKeyID>9B9F65F3-6509-932E-A9F8-295CB0B44999</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_satveg</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,20 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="propriedade produtor FK" directorySegmentName="seg_0" id="268B7E49-ECE4-24A3-5746-97E5DE2AC564">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_23" directorySegmentName="seg_0" id="301D4E49-EFF3-9AF3-4A8D-A6FCC461B9BC">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 17:57:57 UTC</createdTime>
+<createdTime>2026-06-02 20:20:27 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
 <item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
 </engineerTo>
-<sourcePk>2073F743-A64C-6AAB-72B1-7EDC3FAB2A04</sourcePk>
+<sourcePk>F38B0ABD-6AD6-5371-BA78-3C5CB071A78A</sourcePk>
 <identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>4E0752B8-9EC3-891A-D4D2-A357F76270D6</sourceEntity>
+<sourceEntity>396DC1C8-370A-8BBB-588A-2451998DCCD5</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>3F0019B3-C514-32E1-D9C4-74FFFD41867A</targetEntity>
+<targetEntity>A3C9BB4E-C580-2D1C-B569-2DCEE433787C</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
