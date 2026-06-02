@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23D32C0B-27A5-CAF2-8E19-658D4306B41B" name="satveg">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<generatorID>9A8AB7C3-600A-029F-CF51-3B64506281B0</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_satveg" id="07DA126D-8F94-7A28-78C2-AF7A14BCD38B">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<generatorID>2F232D54-CC89-ED1E-5101-9C94188B9AD6</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_indice" id="76ACDCBF-7616-6352-6CCC-7CAC274C39EE">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<generatorID>DC48C23B-F3D4-A3A9-0EC5-8434B627AA2A</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_analise" id="151F558D-0952-E6F1-FEE4-F81B2D66A5F4">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<generatorID>83982DD3-666C-4C44-EDA0-E46BE1CD7C89</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dados_json" id="C0885C03-09C3-74EC-D0D2-3DC2B8BD5496">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<generatorID>46E502FE-069E-763A-4D6E-B436184DBDD8</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="talhao_id_talhao" id="5D799693-9DDC-B958-EC0F-ECEE9972CA98">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<generatorID>F08E47C7-8E59-81CD-8CB3-2DCE08507621</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46D5B86E-4290-FE63-0E31-158139954DA5" referredColumn="5D68D8C9-903B-234F-E0C7-8747BD62F009"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE408FE7-2B92-8FE9-DBD6-69CC222A75B9" name="satveg_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<generatorID>06FD7161-BFE6-A047-E607-AFC73309302F</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07DA126D-8F94-7A28-78C2-AF7A14BCD38B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BE84073-C049-528D-EB2B-C61088528DAC" name="satveg_talhao_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:09:01 UTC</createdTime>
+<generatorID>B547E81A-6DAE-FBEC-C744-C94FD4C8F3F8</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D799693-9DDC-B958-EC0F-ECEE9972CA98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC39E21B-731B-3212-1A80-5E9AACF458EB" name="telefone">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:08:23 UTC</createdTime>
+<generatorID>82EE270F-AF1C-939F-3B21-E3264078A347</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_telefone" id="99BEE150-5ABF-14DF-254C-F216889F0898">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:08:23 UTC</createdTime>
+<generatorID>C1153E8D-C00A-6944-9AD4-7A26796B9EAE</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ddd" id="F2ACA736-91A3-010E-86D4-31C3A328DF26">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:08:23 UTC</createdTime>
+<generatorID>69424076-0E60-37FF-A3C3-BF4F286DFC27</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="411EAD70-70E8-ED7C-07C9-D5DCC4DD1A97">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:08:23 UTC</createdTime>
+<generatorID>1DC27607-7417-CE15-13B0-93CED7AE9210</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produtor_id_produtor" id="3EA7004A-A636-25D2-AC81-FAADE17F408C">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:08:23 UTC</createdTime>
+<generatorID>C6831C5C-2858-09A6-5574-8B7BF37862E0</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF35C048-1CE5-0CF5-033F-574A5A9FE0A7" referredColumn="3D62212A-4743-50F4-12BD-761D2D53C73E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="356A420A-4C13-5B71-3AF2-916E6BC72128" name="telefone_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:08:23 UTC</createdTime>
+<generatorID>5B1C89E5-703F-8B80-4D5B-23CAF635FB83</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99BEE150-5ABF-14DF-254C-F216889F0898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="444DD8FA-A5A2-B60E-E413-897A75DD05F0" name="telefone__IDX">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:08:23 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3FC07A53-BF3A-9A94-C3E7-6ED188BD546A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3EA7004A-A636-25D2-AC81-FAADE17F408C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A6DD998-D094-414A-0462-C7121E7ECD4A" name="telefone_produtor_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:08:23 UTC</createdTime>
+<generatorID>3FC07A53-BF3A-9A94-C3E7-6ED188BD546A</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EA7004A-A636-25D2-AC81-FAADE17F408C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

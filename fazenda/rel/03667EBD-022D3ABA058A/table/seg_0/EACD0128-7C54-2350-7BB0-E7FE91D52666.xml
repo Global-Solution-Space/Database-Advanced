@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EACD0128-7C54-2350-7BB0-E7FE91D52666" name="tipo_plantacao">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:08:23 UTC</createdTime>
+<generatorID>C94D2C05-E194-D6B7-93AB-BCA2F3A51BC1</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_plant" id="F5A177CF-17E2-F483-2E6D-26E77A831A37">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:08:23 UTC</createdTime>
+<generatorID>E45AFF34-E47C-9AAB-5B09-0CE4F471EF6E</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_plant" id="A6827630-1FFC-0111-797B-E218234A284E">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:08:23 UTC</createdTime>
+<generatorID>8E369DFE-D99C-7547-0433-85DDAE21A227</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B2F8268-35D5-9B85-6EF9-3663E1662001" name="tipo_plantacao_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-02 00:08:23 UTC</createdTime>
+<generatorID>70A624CB-7E99-1A2D-B10D-FDFA2600D181</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5A177CF-17E2-F483-2E6D-26E77A831A37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

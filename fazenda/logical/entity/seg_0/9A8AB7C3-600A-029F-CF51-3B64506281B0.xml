@@ -4,7 +4,8 @@
 <createdTime>2026-05-28 18:00:56 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="14CA8988-9923-1A1B-7B7D-2FECE2D4B8DE" value="true"/>
+<item key="27E74516-3891-FA98-8A6B-2B7BBBF402B0" value="true"/>
+<item key="86348B58-5EE2-84EA-B18C-06697635EFF0" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +21,8 @@
 <createdTime>2026-05-28 18:01:04 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="14CA8988-9923-1A1B-7B7D-2FECE2D4B8DE" value="true"/>
+<item key="27E74516-3891-FA98-8A6B-2B7BBBF402B0" value="true"/>
+<item key="86348B58-5EE2-84EA-B18C-06697635EFF0" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,86 +30,44 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo_perfil" id="DC48C23B-F3D4-A3A9-0EC5-8434B627AA2A">
+<Attribute name="tipo_indice" id="DC48C23B-F3D4-A3A9-0EC5-8434B627AA2A">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 18:01:18 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="14CA8988-9923-1A1B-7B7D-2FECE2D4B8DE" value="true"/>
+<item key="27E74516-3891-FA98-8A6B-2B7BBBF402B0" value="true"/>
+<item key="86348B58-5EE2-84EA-B18C-06697635EFF0" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,5,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="satelite" id="E9C1181C-D0F1-5836-44B1-8B3E2978A622">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 18:01:50 UTC</createdTime>
-<ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="14CA8988-9923-1A1B-7B7D-2FECE2D4B8DE" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT020</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,5,2</ownDataTypeParameters>
-</Attribute>
-<Attribute name="pre_filtro" id="81A9D743-A7D5-123A-82D2-914C9CAC5D74">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-29 18:06:49 UTC</createdTime>
-<ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="14CA8988-9923-1A1B-7B7D-2FECE2D4B8DE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>1</dataTypePrecision>
-<ownDataTypeParameters>,1,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="filtro" id="7D59E4A1-7498-05CD-5EB1-A7DAA02C6D2F">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 18:02:25 UTC</createdTime>
-<ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="14CA8988-9923-1A1B-7B7D-2FECE2D4B8DE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="parametro_filtro" id="AA94C0ED-2102-E943-8806-6DDB4DDF73D7">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-29 18:08:11 UTC</createdTime>
-<ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="14CA8988-9923-1A1B-7B7D-2FECE2D4B8DE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="data_analise" id="83982DD3-666C-4C44-EDA0-E46BE1CD7C89">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 18:03:24 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="14CA8988-9923-1A1B-7B7D-2FECE2D4B8DE" value="true"/>
+<item key="27E74516-3891-FA98-8A6B-2B7BBBF402B0" value="true"/>
+<item key="86348B58-5EE2-84EA-B18C-06697635EFF0" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dados_json" id="46E502FE-069E-763A-4D6E-B436184DBDD8">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:17:37 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="27E74516-3891-FA98-8A6B-2B7BBBF402B0" value="true"/>
+<item key="86348B58-5EE2-84EA-B18C-06697635EFF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_talhao" id="F08E47C7-8E59-81CD-8CB3-2DCE08507621">
@@ -116,14 +76,15 @@
 <generatorID>B547E81A-6DAE-FBEC-C744-C94FD4C8F3F8</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="14CA8988-9923-1A1B-7B7D-2FECE2D4B8DE" value="true"/>
+<item key="27E74516-3891-FA98-8A6B-2B7BBBF402B0" value="true"/>
+<item key="86348B58-5EE2-84EA-B18C-06697635EFF0" value="true"/>
 </engineerTo>
 <referedAttribute>5BDA2553-AECF-C6A7-67E9-54B99304255B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -132,7 +93,8 @@
 <createdTime>2026-05-28 18:01:17 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="14CA8988-9923-1A1B-7B7D-2FECE2D4B8DE" value="true"/>
+<item key="27E74516-3891-FA98-8A6B-2B7BBBF402B0" value="true"/>
+<item key="86348B58-5EE2-84EA-B18C-06697635EFF0" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

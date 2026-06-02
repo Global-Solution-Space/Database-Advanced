@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0978048F-4D21-25EF-C1F7-D6C9BF628704" name="talhao">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<generatorID>396DC1C8-370A-8BBB-588A-2451998DCCD5</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_talhao" id="6A007220-40B3-3406-A615-6C179CC4AB50">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<generatorID>5BDA2553-AECF-C6A7-67E9-54B99304255B</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_talhao" id="7F6FD633-E3DA-5507-2C57-579FC64C1583">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<generatorID>6185E6D8-6475-906F-C229-BDF5CBCFDE4B</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="volum_area" id="C5E52521-C8AD-CF11-2E2B-753A926DEB82">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<generatorID>3459C617-175A-D6CD-DD22-1FD0E93CCC07</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_plantacao_id_tipo_plant" id="E7955A27-1DF0-3B02-7AF3-2A1F393EDCED">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<generatorID>88D2F6B6-3C51-0D99-B4D6-87E2A1D95175</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8281E588-A895-A1BD-C45F-63CD9F7A43D6" referredColumn="2B37D3F3-54E4-939D-A5EC-8F3508838F3A"/>
+</associations>
+</Column>
+<Column name="propriedade_id_propriedade" id="17F2C7B1-73EB-410D-0B05-236A77548BFA">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<generatorID>D41E724A-D42B-D8C9-B8D8-9B5E6A6D9A95</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="052AAC4B-4E20-7B0B-1EC5-C9967B6FC992" referredColumn="3E43E0F4-82E1-5004-B876-5BF62B3B98B3"/>
+</associations>
+</Column>
+<Column name="localizacao_id_localizacao" id="18B041F1-4935-ACDF-5B6D-B3F6B7BF8D6A">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<generatorID>081CD6B5-126B-3F2B-2C14-18860DAF6EC1</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AD3BCC6-B8AD-A62C-B9AD-63D7BD9228BD" referredColumn="87730BD1-2403-ACEF-A80F-BF4FE8991D42"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68BFD176-3B1A-4F2A-0F2E-CF90C7D8E829" name="talhao_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<generatorID>F38B0ABD-6AD6-5371-BA78-3C5CB071A78A</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A007220-40B3-3406-A615-6C179CC4AB50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6992960-13EA-CF42-970A-BCFA7A61D634" name="talhao__IDX">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EC4AEB37-309E-9A85-B525-62EA6ED0A84C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="18B041F1-4935-ACDF-5B6D-B3F6B7BF8D6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B065EC79-0A39-06D2-69EF-471E74AC39AA" name="talhao_localizacao_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<generatorID>EC4AEB37-309E-9A85-B525-62EA6ED0A84C</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18B041F1-4935-ACDF-5B6D-B3F6B7BF8D6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D6CDE50-64E5-457A-E90B-7075AFB2EF39" name="talhao_tipo_plantacao_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<generatorID>076B28A7-667F-27EE-A0A9-D233B0A0BDFE</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7955A27-1DF0-3B02-7AF3-2A1F393EDCED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="150A662E-FADB-AE8C-C94E-30DB08B9BAC6" name="talhao_propriedade_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<generatorID>FC63AAF9-5B4F-51C4-243D-E1B66D4117D8</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17F2C7B1-73EB-410D-0B05-236A77548BFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

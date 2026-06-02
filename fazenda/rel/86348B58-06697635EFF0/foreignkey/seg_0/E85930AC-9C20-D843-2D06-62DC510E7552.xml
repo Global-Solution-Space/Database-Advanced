@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E85930AC-9C20-D843-2D06-62DC510E7552" containerWithKeyObject="8CDBFF35-2EAB-0F9E-0F57-AD01AF720DA9" localFKIndex="EDEDEACB-4F11-2E20-92CC-0A28CC5A6DCC" name="nasapower_talhao_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-01 19:19:48 UTC</createdTime>
+<generatorID>DB20C3A8-17D9-8FB4-68E0-C805920AD3F2</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>talhao</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0978048F-4D21-25EF-C1F7-D6C9BF628704</referredTableID>
+<keyObject>68BFD176-3B1A-4F2A-0F2E-CF90C7D8E829</keyObject>
+<referredKeyID>68BFD176-3B1A-4F2A-0F2E-CF90C7D8E829</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_talhao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

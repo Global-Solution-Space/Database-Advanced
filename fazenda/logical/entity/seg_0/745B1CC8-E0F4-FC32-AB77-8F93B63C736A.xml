@@ -3,6 +3,9 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:16:54 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="7B479317-8071-292B-0BA0-10506CAC6137" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:17:03 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="7B479317-8071-292B-0BA0-10506CAC6137" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -26,6 +32,9 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:17:11 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="7B479317-8071-292B-0BA0-10506CAC6137" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -36,6 +45,9 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:17:26 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="7B479317-8071-292B-0BA0-10506CAC6137" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -46,6 +58,9 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:17:42 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="7B479317-8071-292B-0BA0-10506CAC6137" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -56,6 +71,9 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:17:57 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="7B479317-8071-292B-0BA0-10506CAC6137" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -66,29 +84,23 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:18:12 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="7B479317-8071-292B-0BA0-10506CAC6137" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_satveg" id="8086AF16-47D8-C78C-364E-E0D70BEA46EB">
+<Attribute name="id_talhao" id="253ED69B-51B0-1DB3-0527-B852C25D0B00">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-28 19:41:34 UTC</createdTime>
-<generatorID>1F4E162A-BF61-CCE8-BBBB-06D60908E311</generatorID>
+<createdTime>2026-06-01 18:31:05 UTC</createdTime>
+<generatorID>6D47A776-80FC-2536-3A38-DCD8002F73F6</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
-<referedAttribute>2F232D54-CC89-ED1E-5101-9C94188B9AD6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_nasapower" id="1F92AC3D-5472-9775-A143-FCD3DD9AA71D">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 15:58:26 UTC</createdTime>
-<generatorID>451F746C-05A0-16DE-E534-0E3B42F5FB2E</generatorID>
-<ownerDesignName>fazenda</ownerDesignName>
-<referedAttribute>1AC7C533-B75F-F572-DC4C-0D56CE3AAF1D</referedAttribute>
+<engineerTo>
+<item key="7B479317-8071-292B-0BA0-10506CAC6137" value="true"/>
+</engineerTo>
+<referedAttribute>5BDA2553-AECF-C6A7-67E9-54B99304255B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -101,6 +113,9 @@
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:17:10 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="7B479317-8071-292B-0BA0-10506CAC6137" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FB774A8B-9AC7-DB43-F822-BFBFFFDC5989</attributeRef>
