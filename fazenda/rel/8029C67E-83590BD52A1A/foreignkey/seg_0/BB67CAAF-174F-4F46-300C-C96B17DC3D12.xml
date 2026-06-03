@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB67CAAF-174F-4F46-300C-C96B17DC3D12" containerWithKeyObject="D8F496BE-A0F4-539C-3FA5-92C0D675D660" localFKIndex="58B01BF0-4843-8F53-0BBE-B3596721F227" name="req_api_tipo_api_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-03 16:00:06 UTC</createdTime>
+<generatorID>006C35BB-2FE2-6635-60AB-BAD85F9A72B8</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>tipo_api</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC24DDD0-4ADC-D16F-504D-DEB108D5F67F</referredTableID>
+<keyObject>774DE853-8F96-4DE3-BCF0-449BE17A50A4</keyObject>
+<referredKeyID>774DE853-8F96-4DE3-BCF0-449BE17A50A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

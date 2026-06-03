@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="661C9269-0D38-0E28-15FA-CE85DCC0C3DA" name="tipo_api">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-03 14:15:50 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="61C970D0-975A-D7EA-AB39-CC676381F2F2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo" id="55317AA7-9EC1-F7AF-DF16-FEB6D81811F2">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-03 14:15:57 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="61C970D0-975A-D7EA-AB39-CC676381F2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_api" id="749E144B-8F28-2ABB-3C7C-1412422EDA94">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-03 14:16:06 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="61C970D0-975A-D7EA-AB39-CC676381F2F2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54E57747-DF43-0B0E-FB26-7E9CFC460084" name="tipo_api PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-03 14:16:05 UTC</createdTime>
+<ownerDesignName>fazenda</ownerDesignName>
+<engineerTo>
+<item key="61C970D0-975A-D7EA-AB39-CC676381F2F2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55317AA7-9EC1-F7AF-DF16-FEB6D81811F2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
