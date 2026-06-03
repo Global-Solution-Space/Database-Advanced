@@ -4,8 +4,7 @@
 <createdTime>2026-05-30 00:30:48 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="8029C67E-9C92-B560-6609-83590BD52A1A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,8 +20,7 @@
 <createdTime>2026-05-30 00:30:53 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="8029C67E-9C92-B560-6609-83590BD52A1A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,23 +33,21 @@
 <createdTime>2026-05-30 00:31:05 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="8029C67E-9C92-B560-6609-83590BD52A1A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
+<dataTypePrecision>9</dataTypePrecision>
 <dataTypeScale>6</dataTypeScale>
-<ownDataTypeParameters>,8,6</ownDataTypeParameters>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
 </Attribute>
 <Attribute name="loc_longitude" id="C20E425B-3CA3-0426-9947-4BA20D098C42">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-30 00:31:21 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="8029C67E-9C92-B560-6609-83590BD52A1A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -67,8 +63,7 @@
 <createdTime>2026-05-30 00:31:00 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="8029C67E-9C92-B560-6609-83590BD52A1A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

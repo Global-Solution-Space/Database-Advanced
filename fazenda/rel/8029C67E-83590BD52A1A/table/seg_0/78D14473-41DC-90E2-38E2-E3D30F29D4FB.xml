@@ -28,9 +28,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
+<dataTypePrecision>9</dataTypePrecision>
 <dataTypeScale>6</dataTypeScale>
-<ownDataTypeParameters>,8,6</ownDataTypeParameters>
+<ownDataTypeParameters>,9,6</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="loc_longitude" id="8869A4D8-5D61-F363-E317-01397D9D5554">
