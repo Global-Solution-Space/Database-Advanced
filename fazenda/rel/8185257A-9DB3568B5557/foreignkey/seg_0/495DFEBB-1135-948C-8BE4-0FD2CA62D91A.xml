@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="495DFEBB-1135-948C-8BE4-0FD2CA62D91A" containerWithKeyObject="CE307CEE-BBF3-1623-57CC-4C5329038B1C" localFKIndex="A4D306EF-4BD4-8241-98EC-16B9CB3709A4" name="talhao_tipo_plantacao_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-04 01:28:38 UTC</createdTime>
+<generatorID>076B28A7-667F-27EE-A0A9-D233B0A0BDFE</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>tipo_plantacao</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5C9AD6F4-D3BC-E43E-BFA0-ED245D873153</referredTableID>
+<keyObject>DD2384A5-961D-D4C1-D1FF-81C6B7452957</keyObject>
+<referredKeyID>DD2384A5-961D-D4C1-D1FF-81C6B7452957</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_plant</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
