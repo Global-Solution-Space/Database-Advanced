@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A7104BDA-05BD-B908-21C9-60154554C989" containerWithKeyObject="CCC1E9E7-B799-6D3E-E542-BB385B36BB3D" localFKIndex="63254BBA-5865-7BCC-19B8-FF939F6E418E" name="dado_temporal_talhao_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-06 22:56:48 UTC</createdTime>
+<generatorID>BB20697A-C662-3672-2F2B-C346322DBFCD</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>talhao</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DBFE02A5-235B-9F87-62EF-15DD9971B591</referredTableID>
+<keyObject>0998DCFC-70A4-6B88-EC1E-339BAA8C33B9</keyObject>
+<referredKeyID>0998DCFC-70A4-6B88-EC1E-339BAA8C33B9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_talhao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

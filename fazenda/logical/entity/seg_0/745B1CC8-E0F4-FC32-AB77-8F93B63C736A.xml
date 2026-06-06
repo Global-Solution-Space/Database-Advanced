@@ -4,8 +4,7 @@
 <createdTime>2026-05-28 19:16:54 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,8 +20,7 @@
 <createdTime>2026-05-28 19:17:03 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,8 +33,7 @@
 <createdTime>2026-05-28 19:17:11 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,8 +46,7 @@
 <createdTime>2026-05-28 19:17:26 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,8 +59,7 @@
 <createdTime>2026-05-28 19:17:42 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -77,22 +72,19 @@
 <createdTime>2026-05-28 19:17:57 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="data_alerta" id="8B1B6E76-2523-5F08-C255-33121AAB8ADA">
 <createdBy>Enzo</createdBy>
 <createdTime>2026-05-28 19:18:12 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -105,15 +97,14 @@
 <generatorID>6D47A776-80FC-2536-3A38-DCD8002F73F6</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <referedAttribute>5BDA2553-AECF-C6A7-67E9-54B99304255B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -122,8 +113,7 @@
 <createdTime>2026-05-28 19:17:10 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="D08B19DD-8C03-F1D6-A0E0-E51170A927C2" value="true"/>
-<item key="CC815502-92EE-9993-19C7-72BC9F00E6CF" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

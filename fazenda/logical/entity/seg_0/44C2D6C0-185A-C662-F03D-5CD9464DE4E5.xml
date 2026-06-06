@@ -4,7 +4,7 @@
 <createdTime>2026-05-30 00:30:48 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="8029C67E-9C92-B560-6609-83590BD52A1A" value="true"/>
+<item key="8185257A-C452-D4BB-E6BA-9DB3568B5557" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2026-05-30 00:30:53 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="8029C67E-9C92-B560-6609-83590BD52A1A" value="true"/>
+<item key="8185257A-C452-D4BB-E6BA-9DB3568B5557" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,33 +28,17 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="loc_latitude" id="BA5AECAA-8089-9C19-F08D-AFD0F8387A40">
+<Attribute name="coordenadas" id="F092A8F6-7E63-D521-97DE-B6F45D027397">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 00:31:05 UTC</createdTime>
+<createdTime>2026-06-06 22:54:33 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="8029C67E-9C92-B560-6609-83590BD52A1A" value="true"/>
+<item key="8185257A-C452-D4BB-E6BA-9DB3568B5557" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
-<dataTypeScale>6</dataTypeScale>
-<ownDataTypeParameters>,9,6</ownDataTypeParameters>
-</Attribute>
-<Attribute name="loc_longitude" id="C20E425B-3CA3-0426-9947-4BA20D098C42">
-<createdBy>Enzo</createdBy>
-<createdTime>2026-05-30 00:31:21 UTC</createdTime>
-<ownerDesignName>fazenda</ownerDesignName>
-<engineerTo>
-<item key="8029C67E-9C92-B560-6609-83590BD52A1A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
-<dataTypeScale>6</dataTypeScale>
-<ownDataTypeParameters>,9,6</ownDataTypeParameters>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -63,7 +47,7 @@
 <createdTime>2026-05-30 00:31:00 UTC</createdTime>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="8029C67E-9C92-B560-6609-83590BD52A1A" value="true"/>
+<item key="8185257A-C452-D4BB-E6BA-9DB3568B5557" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

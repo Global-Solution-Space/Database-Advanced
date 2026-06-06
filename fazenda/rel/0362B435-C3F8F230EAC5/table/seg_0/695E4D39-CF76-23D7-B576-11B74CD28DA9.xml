@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="695E4D39-CF76-23D7-B576-11B74CD28DA9" name="localizacao">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<generatorID>44C2D6C0-185A-C662-F03D-5CD9464DE4E5</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_localizacao" id="5CE2EB16-A6CF-745F-909B-66256F44D396">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<generatorID>9A973AE9-8B69-BF8C-B232-B9BB70DD6C61</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="coordenadas" id="AE7F0A43-5B73-2579-049A-1E6F0241274C">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<generatorID>F092A8F6-7E63-D521-97DE-B6F45D027397</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5E88C6E-B4FC-8898-F9BA-9FB2684E2EC3" name="localizacao_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<generatorID>6761D8EC-5975-0C01-6705-CC41AA3A31C9</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CE2EB16-A6CF-745F-909B-66256F44D396"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

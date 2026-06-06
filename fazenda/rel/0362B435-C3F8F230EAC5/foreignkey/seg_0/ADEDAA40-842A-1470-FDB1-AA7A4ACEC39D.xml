@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ADEDAA40-842A-1470-FDB1-AA7A4ACEC39D" containerWithKeyObject="1A525251-023E-DC6A-8757-161A87DC51CE" localFKIndex="7C346854-CC2E-2A0E-DEDA-29E0770166B9" name="propriedade_produtor_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<generatorID>268B7E49-ECE4-24A3-5746-97E5DE2AC564</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>produtor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>02DFD2AE-4DE9-3410-CD4D-CD695A1D5851</referredTableID>
+<keyObject>0CFC0A38-3BBC-BCE5-CB2E-C19BCBB2C412</keyObject>
+<referredKeyID>0CFC0A38-3BBC-BCE5-CB2E-C19BCBB2C412</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_produtor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
