@@ -5,7 +5,7 @@
 <generatorID>CCC2D1BB-23D5-8C7E-08E8-35DF16743377</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="0BC354A9-08D7-C08F-EEC2-FAC0A95AEF71" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,7 +22,7 @@
 <generatorID>C874F529-B66A-23AF-58B8-8A93F8DFB85B</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="0BC354A9-08D7-C08F-EEC2-FAC0A95AEF71" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -36,14 +36,14 @@
 <generatorID>6CD8D4FC-ACF3-D467-2360-D1B4AF0A04DC</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="0BC354A9-08D7-C08F-EEC2-FAC0A95AEF71" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
 <listOfValues>
-<valueDef value="NVDI" description=""/>
+<valueDef value="NDVI" description=""/>
 <valueDef value="PRECTOTCORR" description=""/>
 </listOfValues>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
@@ -54,7 +54,7 @@
 <generatorID>8D737BCC-D846-4D10-D4C8-A1BC985C2E19</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="0BC354A9-08D7-C08F-EEC2-FAC0A95AEF71" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -67,14 +67,14 @@
 <generatorID>006C35BB-2FE2-6635-60AB-BAD85F9A72B8</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="0BC354A9-08D7-C08F-EEC2-FAC0A95AEF71" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <referedAttribute>55317AA7-9EC1-F7AF-DF16-FEB6D81811F2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -84,7 +84,7 @@
 <generatorID>7B91A130-E286-9737-A1F2-EDBE58D83584</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <engineerTo>
-<item key="0BC354A9-08D7-C08F-EEC2-FAC0A95AEF71" value="true"/>
+<item key="0362B435-3D10-A916-BB03-C3F8F230EAC5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F6A1193E-C2FC-5B78-7E6C-DD358CE97C5C" containerWithKeyObject="00673C7A-A2F0-795B-BB03-F3E8267214F2" localFKIndex="34CAD821-9A88-468C-135B-831B372143E9" name="alerta_agricola_talhao_FK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
+<generatorID>6D47A776-80FC-2536-3A38-DCD8002F73F6</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<referredTableLongName>talhao</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5D92167-92AF-63A2-16BD-31A53E3440ED</referredTableID>
+<keyObject>E8D26B01-5472-9D3C-92CB-C355AD3A2F6D</keyObject>
+<referredKeyID>E8D26B01-5472-9D3C-92CB-C355AD3A2F6D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_talhao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

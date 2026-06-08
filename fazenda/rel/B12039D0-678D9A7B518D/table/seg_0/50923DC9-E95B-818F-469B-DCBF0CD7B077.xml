@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F38A4AA-E722-D6E5-32C8-FD2E6EEAA865" name="req_api">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50923DC9-E95B-818F-469B-DCBF0CD7B077" name="req_api">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>CEC1EED2-3057-7DC0-C369-B0201A07A360</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_api" id="15374707-499F-6495-9607-7162FDE8A6E9">
+<Column name="id_api" id="47B3D0B1-5083-94FC-4BF7-E1DB51443262">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>FAB984A1-BB2F-8B26-91D0-496DB2858B5C</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tipo_param" id="81FE4DE4-AE53-1B74-E916-EDD0A1C1EF74">
+<Column name="tipo_param" id="9E9C8107-92EF-7ACC-9CCA-3631EF21749F">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>63FC1F84-57B4-35E2-D6BB-4E7D6B28CF5A</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,15 +30,15 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
 <listOfValues>
-<valueDef value="NVDI" description=""/>
+<valueDef value="NDVI" description=""/>
 <valueDef value="PRECTOTCORR" description=""/>
 </listOfValues>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data_analise" id="6D7CAEB6-B94A-22B2-5C57-020444552192">
+<Column name="data_analise" id="55D74D29-FC84-4DFF-AD3A-505ADD33993F">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>95F85CF6-8542-D657-BEE1-879BB2C7785E</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,9 +47,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tipo_api_id_tipo" id="9E2A3046-002A-59D8-4AE2-AD561177CE17">
+<Column name="tipo_api_id_tipo" id="7F37F75E-EB32-3778-FB13-FB21BE70A174">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>838D2B72-02D3-BD42-159F-2E6EF87902C1</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,32 +60,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E04E8EC9-04B2-6DA7-7C6E-E6F377338B7F" referredColumn="FD33AB73-6CAE-CDE3-573F-B2C5A9901F53"/>
+<colAssociation fkAssociation="FB75AE72-5D85-1C6A-1D71-EECD4DF91E98" referredColumn="0EEDC91C-D243-4D89-AE13-1A822443D05C"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="486949A1-380B-3616-843D-E5DDAD81DD0F" name="req_api_PK">
+<ind_PK_UK id="EEA9CEE4-4175-482C-5283-CB35F4483ED9" name="req_api_PK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>7DB15AE7-96E8-5774-E6B7-822068FB1CA3</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="15374707-499F-6495-9607-7162FDE8A6E9"/>
+<colUsage columnID="47B3D0B1-5083-94FC-4BF7-E1DB51443262"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6AD416AF-C1D4-C6B1-E741-22B94C5306F4" name="req_api_tipo_api_FK">
+<ind_PK_UK id="D81E4A70-3076-E134-F1CE-6136A66AFDB4" name="req_api_tipo_api_FK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>006C35BB-2FE2-6635-60AB-BAD85F9A72B8</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9E2A3046-002A-59D8-4AE2-AD561177CE17"/>
+<colUsage columnID="7F37F75E-EB32-3778-FB13-FB21BE70A174"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

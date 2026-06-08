@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7C8776F-E1BC-1501-31EE-337CEAE03B77" name="dado_temporal">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45D64BD8-844A-36B9-CC81-768CDE7B527E" name="dado_temporal">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>162348D4-A495-EA60-A1F6-81CA97A3EA68</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_dado" id="34F4E7ED-2E58-B6F6-B426-2539A24FF7AB">
+<Column name="id_dado" id="F002BFC5-A023-B97A-C20C-47E6A0CD2FFB">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>7EA8B0D2-27CE-EEB7-E7ED-2A0758C02F22</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data_leitura" id="98AB9488-0B7F-D256-3EBD-DE2A42D765AA">
+<Column name="data_leitura" id="923C89D4-CE29-7A46-AB9B-43AFCF688877">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>BEB01AA1-7D06-2031-459A-E3912E1391D7</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="valor" id="04D078DB-5251-F50F-CDD4-C226FAD39AAB">
+<Column name="valor" id="62215E46-88C1-AE55-B258-CD94629E47FD">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>18E964F8-ACCA-C628-3F8A-C45E01FF7AA4</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,9 +44,9 @@
 <ownDataTypeParameters>,10,4</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="talhao_id_talhao" id="93747583-43B0-2ECF-BE25-865760A247AF">
+<Column name="talhao_id_talhao" id="6A3A8B4E-2C70-7A2E-4224-3C9E66B51E8D">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>633DD47A-3B0B-8C9C-1C52-98BFFF79A896</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,12 +57,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7FA6C105-7098-5EF7-A38A-B6EBB762AE23" referredColumn="F068F4C5-6C48-380E-AA50-15D6C65D8389"/>
+<colAssociation fkAssociation="05D4F0BF-45FB-A6B4-2AF6-C1F9006A3A4E" referredColumn="723B1FAB-3F88-6C54-6CC4-EF930983B8F8"/>
 </associations>
 </Column>
-<Column name="req_api_id_api" id="7CC0F7E1-FB93-8A8F-E94B-06664B83EE36">
+<Column name="req_api_id_api" id="A6B0904B-7986-4175-E08E-19BF5F078A85">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>9FA3BD08-5A93-60FE-589A-6232763AC800</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,43 +73,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7E3AC48E-1FD9-8A35-9ECC-70EF42DABCA4" referredColumn="15374707-499F-6495-9607-7162FDE8A6E9"/>
+<colAssociation fkAssociation="E56A3556-ACA2-F1AA-2F41-AEAF731107E0" referredColumn="47B3D0B1-5083-94FC-4BF7-E1DB51443262"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="98614244-00C1-C536-6AE0-206ADC09171C" name="dado_temporal_PK">
+<ind_PK_UK id="A90311D6-9849-7491-FF86-D55C21CC377F" name="dado_temporal_PK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>401C77AA-1DD1-C1C9-208F-47BAC815902D</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="34F4E7ED-2E58-B6F6-B426-2539A24FF7AB"/>
+<colUsage columnID="F002BFC5-A023-B97A-C20C-47E6A0CD2FFB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="42E9920D-BB74-CD84-0CFD-1385993156A6" name="dado_temporal_talhao_FK">
+<ind_PK_UK id="D6E76D61-9A4F-B553-7F48-4001ABAF1044" name="dado_temporal_talhao_FK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>BB20697A-C662-3672-2F2B-C346322DBFCD</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="93747583-43B0-2ECF-BE25-865760A247AF"/>
+<colUsage columnID="6A3A8B4E-2C70-7A2E-4224-3C9E66B51E8D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5502839E-B12D-D64F-B5D2-83E896670E31" name="dado_temporal_req_api_FK">
+<ind_PK_UK id="5BB35327-5107-CC3B-6133-DAC80E016999" name="dado_temporal_req_api_FK">
 <createdBy>Enzo</createdBy>
-<createdTime>2026-06-06 23:13:33 UTC</createdTime>
+<createdTime>2026-06-08 13:17:04 UTC</createdTime>
 <generatorID>0263FAFA-8E8D-A111-363A-4D5F9BBCD3A1</generatorID>
 <ownerDesignName>fazenda</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7CC0F7E1-FB93-8A8F-E94B-06664B83EE36"/>
+<colUsage columnID="A6B0904B-7986-4175-E08E-19BF5F078A85"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
