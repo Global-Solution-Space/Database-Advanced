@@ -6,16 +6,6 @@ Sistema de banco de dados desenvolvido para suporte à plataforma **Terra Nova**
 
 ---
 
-## Links da Entrega
-
-| Recurso               | Link                  |
-| --------------------- | --------------------- |
-| Repositório GitHub    | [Database-Advanced](https://github.com/Global-Solution-Space/Database-Advanced)         |
-| Modelo Lógico         | `docs/Logical.png`    |
-| Modelo Relacional     | `docs/Relational.png` |
-
----
-
 ## Integrantes
 
 | Nome                       |     RM | Turma  | GitHub           |
