@@ -1,16 +1,11 @@
 DECLARE
-    v_total NUMBER;
+    -- Cursor explícito 3
+    CURSOR c_props IS SELECT nome FROM propriedade WHERE rownum <= 3;
 BEGIN
-    FOR i IN 1..5 LOOP
-
-        SELECT COUNT(*) INTO v_total FROM alerta_agricola WHERE talhao_id_talhao = i;
-        DBMS_OUTPUT.PUT_LINE(
-            'Talhão ' || i ||
-            ' possui ' || v_total ||
-            ' alerta(s).'
-        );
+    -- Estrutura de repetição 1 (FOR LOOP)
+    FOR r_prop IN c_props LOOP
+        DBMS_OUTPUT.PUT_LINE('Propriedade: ' || r_prop.nome);
     END LOOP;
-
 EXCEPTION
     WHEN OTHERS THEN
         DBMS_OUTPUT.PUT_LINE(SQLERRM);

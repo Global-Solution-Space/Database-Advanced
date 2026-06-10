@@ -1,17 +1,18 @@
 DECLARE
-    v_cont NUMBER := 1;
-    v_total NUMBER;
+    -- Cursor explícito 4
+    CURSOR c_tipos IS SELECT tipo_plant FROM tipo_plantacao;
+    v_tipo tipo_plantacao.tipo_plant%TYPE;
 BEGIN
-
-    SELECT COUNT(*) INTO v_total FROM dado_temporal;
-
-    WHILE v_cont <= v_total LOOP
-        DBMS_OUTPUT.PUT_LINE(
-            'Processando leitura ' || v_cont
-        );
-        v_cont := v_cont + 1;
+    OPEN c_tipos;
+    FETCH c_tipos INTO v_tipo;
+    
+    -- Estrutura de repetição 2 (WHILE LOOP)
+    WHILE c_tipos%FOUND LOOP
+        DBMS_OUTPUT.PUT_LINE('Plantação: ' || v_tipo);
+        FETCH c_tipos INTO v_tipo;
     END LOOP;
-
+    
+    CLOSE c_tipos;
 EXCEPTION
     WHEN OTHERS THEN
         DBMS_OUTPUT.PUT_LINE(SQLERRM);

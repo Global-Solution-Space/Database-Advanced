@@ -26,6 +26,7 @@ BEGIN
 
 EXCEPTION
     WHEN OTHERS THEN
-        DBMS_OUTPUT.PUT_LINE(SQLERRM);
+        DBMS_OUTPUT.PUT_LINE('Erro na procedure: ' || SQLERRM);
+        RAISE;
 END;
 /
