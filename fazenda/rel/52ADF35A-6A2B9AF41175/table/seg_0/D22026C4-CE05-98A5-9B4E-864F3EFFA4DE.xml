@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D22026C4-CE05-98A5-9B4E-864F3EFFA4DE" name="produtor">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-11 10:55:04 UTC</createdTime>
+<generatorID>4E0752B8-9EC3-891A-D4D2-A357F76270D6</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produtor" id="FE7415A9-1220-05D5-0340-4F8677237606">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-11 10:55:04 UTC</createdTime>
+<generatorID>E3BE2FE8-E841-87E2-BA20-C126CC4ED8EE</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="7C63D958-B853-20B4-2402-65471FBD39F1">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-11 10:55:04 UTC</createdTime>
+<generatorID>6CC77948-92F0-7994-315F-BCD39B620608</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="F82BC564-10E5-3D29-C269-EA4BD168005E">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-11 10:55:04 UTC</createdTime>
+<generatorID>B3B8A4F3-E013-5968-47D0-6F748078DE01</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="323223FC-7689-8215-2279-3F8033FF5CBF">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-11 10:55:04 UTC</createdTime>
+<generatorID>FE50E908-71F4-39BF-3AFE-1ED9226218FF</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4B7CACB-85E8-90D5-427D-112230193DC4" name="produtor_PK">
+<createdBy>Enzo</createdBy>
+<createdTime>2026-06-11 10:55:04 UTC</createdTime>
+<generatorID>2073F743-A64C-6AAB-72B1-7EDC3FAB2A04</generatorID>
+<ownerDesignName>fazenda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE7415A9-1220-05D5-0340-4F8677237606"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
